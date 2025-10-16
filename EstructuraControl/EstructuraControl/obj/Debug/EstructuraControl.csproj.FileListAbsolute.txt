@@ -1,0 +1,7 @@
+C:\Users\mateo\source\repos\estructuraControl\EstructuraControl\EstructuraControl\bin\Debug\EstructuraControl.exe.config
+C:\Users\mateo\source\repos\estructuraControl\EstructuraControl\EstructuraControl\bin\Debug\EstructuraControl.exe
+C:\Users\mateo\source\repos\estructuraControl\EstructuraControl\EstructuraControl\bin\Debug\EstructuraControl.pdb
+C:\Users\mateo\source\repos\estructuraControl\EstructuraControl\EstructuraControl\obj\Debug\EstructuraControl.csproj.AssemblyReference.cache
+C:\Users\mateo\source\repos\estructuraControl\EstructuraControl\EstructuraControl\obj\Debug\EstructuraControl.csproj.CoreCompileInputs.cache
+C:\Users\mateo\source\repos\estructuraControl\EstructuraControl\EstructuraControl\obj\Debug\EstructuraControl.exe
+C:\Users\mateo\source\repos\estructuraControl\EstructuraControl\EstructuraControl\obj\Debug\EstructuraControl.pdb
