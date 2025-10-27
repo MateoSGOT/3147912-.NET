@@ -1,0 +1,7 @@
+C:\Users\mateo\source\repos\estructuraControl\POO\POO\obj\Debug\POO.csproj.AssemblyReference.cache
+C:\Users\mateo\source\repos\estructuraControl\POO\POO\obj\Debug\POO.csproj.CoreCompileInputs.cache
+C:\Users\mateo\source\repos\estructuraControl\POO\POO\bin\Debug\POO.exe.config
+C:\Users\mateo\source\repos\estructuraControl\POO\POO\bin\Debug\POO.exe
+C:\Users\mateo\source\repos\estructuraControl\POO\POO\bin\Debug\POO.pdb
+C:\Users\mateo\source\repos\estructuraControl\POO\POO\obj\Debug\POO.exe
+C:\Users\mateo\source\repos\estructuraControl\POO\POO\obj\Debug\POO.pdb
