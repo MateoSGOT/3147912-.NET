@@ -1,0 +1,7 @@
+C:\Users\mateo\source\repos\estructuraControl\modificadores\modificadores\bin\Debug\modificadores.exe.config
+C:\Users\mateo\source\repos\estructuraControl\modificadores\modificadores\bin\Debug\modificadores.exe
+C:\Users\mateo\source\repos\estructuraControl\modificadores\modificadores\bin\Debug\modificadores.pdb
+C:\Users\mateo\source\repos\estructuraControl\modificadores\modificadores\obj\Debug\modificadores.csproj.AssemblyReference.cache
+C:\Users\mateo\source\repos\estructuraControl\modificadores\modificadores\obj\Debug\modificadores.csproj.CoreCompileInputs.cache
+C:\Users\mateo\source\repos\estructuraControl\modificadores\modificadores\obj\Debug\modificadores.exe
+C:\Users\mateo\source\repos\estructuraControl\modificadores\modificadores\obj\Debug\modificadores.pdb
