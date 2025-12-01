@@ -1,0 +1,58 @@
+﻿@model Tienda.Models.Producto
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<h1 class="text-2xl font-semibold text-slate-800 mb-1">Nuevo producto</h1>
+<p class="text-sm text-slate-500 mb-4">Registra un producto con su precio y stock disponible.</p>
+
+<form asp-action="Edit" method="post" class="space-y-4">
+    <div asp-validation-summary="ModelOnly" class="text-sm text-rose-600 mb-2"></div>
+
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+        <div>
+            <label asp-for="Nombre" class="block text-sm font-medium text-slate-700 mb-1"></label>
+            <input asp-for="Nombre" class="w-full rounded-lg border-slate-300 text-sm focus:ring-indigo-500 focus:border-indigo-500" />
+            <span asp-validation-for="Nombre" class="text-xs text-rose-600"></span>
+        </div>
+        <div>
+            <label asp-for="Codigo" class="block text-sm font-medium text-slate-700 mb-1"></label>
+            <input asp-for="Codigo" class="w-full rounded-lg border-slate-300 text-sm focus:ring-indigo-500 focus:border-indigo-500" />
+            <span asp-validation-for="Codigo" class="text-xs text-rose-600"></span>
+        </div>
+        <div>
+            <label asp-for="PrecioUnitario" class="block text-sm font-medium text-slate-700 mb-1"></label>
+            <input asp-for="PrecioUnitario" class="w-full rounded-lg border-slate-300 text-sm focus:ring-indigo-500 focus:border-indigo-500" />
+            <span asp-validation-for="PrecioUnitario" class="text-xs text-rose-600"></span>
+        </div>
+        <div>
+            <label asp-for="StockDisponible" class="block text-sm font-medium text-slate-700 mb-1"></label>
+            <input asp-for="StockDisponible" class="w-full rounded-lg border-slate-300 text-sm focus:ring-indigo-500 focus:border-indigo-500" />
+            <span asp-validation-for="StockDisponible" class="text-xs text-rose-600"></span>
+        </div>
+    </div>
+
+    <div>
+        <label asp-for="Descripcion" class="block text-sm font-medium text-slate-700 mb-1"></label>
+        <textarea asp-for="Descripcion" rows="3" class="w-full rounded-lg border-slate-300 text-sm focus:ring-indigo-500 focus:border-indigo-500"></textarea>
+        <span asp-validation-for="Descripcion" class="text-xs text-rose-600"></span>
+    </div>
+
+    <div class="flex justify-end gap-2 pt-2">
+        <a asp-action="Index"
+           class="inline-flex items-center px-4 py-2 rounded-lg text-sm font-medium text-slate-700 bg-slate-100 hover:bg-slate-200">
+            Cancelar
+        </a>
+        <button type="submit"
+                class="inline-flex items-center px-4 py-2 rounded-lg text-sm font-semibold text-white bg-indigo-600 hover:bg-indigo-700">
+            Guardar
+        </button>
+    </div>
+</form>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

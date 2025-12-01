@@ -1,0 +1,66 @@
+﻿@model IEnumerable<Tienda.Models.Venta>
+
+@{
+    ViewData["Title"] = "Ventas";
+}
+
+<div class="flex flex-col gap-4">
+    <div class="flex flex-col md:flex-row md:items-center md:justify-between gap-3">
+        <div>
+            <h1 class="text-2xl font-semibold text-slate-800">Gestión de ventas</h1>
+            <p class="text-sm text-slate-500">Consulta, filtra y administra las ventas registradas en el sistema.</p>
+        </div>
+        <a asp-action="Create"
+           class="inline-flex items-center justify-center px-4 py-2 rounded-xl text-sm font-semibold text-white bg-indigo-600 hover:bg-indigo-700 shadow-sm">
+            + Nueva venta
+        </a>
+    </div>
+
+    <form asp-action="Index" method="get" class="grid grid-cols-1 md:grid-cols-3 gap-3 bg-slate-50 border border-slate-200 rounded-xl p-4">
+        <div>
+            <label class="block text-xs font-medium text-slate-500 mb-1">Cliente</label>
+            <input type="text" name="cliente" class="w-full rounded-lg border-slate-300 text-sm focus:ring-indigo-500 focus:border-indigo-500" placeholder="Nombre del cliente..." />
+        </div>
+        <div>
+            <label class="block text-xs font-medium text-slate-500 mb-1">Fecha</label>
+            <input type="date" name="fecha" class="w-full rounded-lg border-slate-300 text-sm focus:ring-indigo-500 focus:border-indigo-500" />
+        </div>
+        <div class="flex items-end">
+            <button type="submit"
+                    class="w-full inline-flex items-center justify-center px-4 py-2 rounded-lg text-sm font-semibold text-white bg-indigo-600 hover:bg-indigo-700">
+                Buscar
+            </button>
+        </div>
+    </form>
+
+    <div class="overflow-hidden border border-slate-200 rounded-xl">
+        <table class="min-w-full divide-y divide-slate-200 text-sm">
+            <thead class="bg-slate-50">
+                <tr>
+                    <th class="px-4 py-2 text-left font-semibold text-slate-600">Cliente</th>
+                    <th class="px-4 py-2 text-left font-semibold text-slate-600">Fecha</th>
+                    <th class="px-4 py-2 text-right font-semibold text-slate-600">Total</th>
+                    <th class="px-4 py-2 text-right font-semibold text-slate-600">Acciones</th>
+                </tr>
+            </thead>
+            <tbody class="divide-y divide-slate-100">
+                @foreach (var item in Model)
+                {
+                    <tr class="hover:bg-slate-50">
+                        <td class="px-4 py-2">@item.Cliente?.NombreCompleto</td>
+                        <td class="px-4 py-2">@item.Fecha.ToString("dd/MM/yyyy HH:mm")</td>
+                        <td class="px-4 py-2 text-right">@item.Total.ToString("C")</td>
+                        <td class="px-4 py-2">
+                            <div class="flex justify-end gap-2">
+                                <a asp-action="Details" asp-route-id="@item.VentaId"
+                                   class="inline-flex items-center px-3 py-1 rounded-lg text-xs font-medium text-indigo-700 bg-indigo-50 hover:bg-indigo-100">
+                                    Detalles
+                                </a>
+                            </div>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>
