@@ -1,0 +1,75 @@
+﻿<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - TechNova</title>
+
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/Tienda.styles.css" asp-append-version="true" />
+
+    <!-- Tailwind por CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="min-h-screen bg-slate-100 flex flex-col">
+
+    <!-- Navbar -->
+    <header class="bg-gradient-to-r from-indigo-600 via-purple-600 to-pink-500 shadow-lg">
+        <nav class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex items-center justify-between h-16">
+                <!-- Logo / título -->
+                <a asp-controller="Home" asp-action="Index" class="flex items-center gap-2 text-white">
+                    <span class="inline-flex h-9 w-9 items-center justify-center rounded-xl bg-white/10">
+                        <span class="font-bold text-xl">TN</span>
+                    </span>
+                    <span class="font-semibold text-lg tracking-wide">TechNova - Gestión de Tienda</span>
+                </a>
+
+                <!-- Menú -->
+                <div class="hidden md:flex items-center space-x-4">
+                    <a asp-controller="Home" asp-action="Index"
+                       class="text-white/80 hover:text-white text-sm font-medium px-3 py-2 rounded-md hover:bg-white/10">
+                        Inicio
+                    </a>
+                    <a asp-controller="Clientes" asp-action="Index"
+                       class="text-white/80 hover:text-white text-sm font-medium px-3 py-2 rounded-md hover:bg-white/10">
+                        Clientes
+                    </a>
+                    <a asp-controller="Productoes" asp-action="Index"
+                       class="text-white/80 hover:text-white text-sm font-medium px-3 py-2 rounded-md hover:bg-white/10">
+                        Productos
+                    </a>
+                    <a asp-controller="Ventas" asp-action="Index"
+                       class="text-white/80 hover:text-white text-sm font-medium px-3 py-2 rounded-md hover:bg-white/10">
+                        Ventas
+                    </a>
+                </div>
+
+                <!-- Login / Usuario -->
+                <div class="flex items-center">
+                    <partial name="_LoginPartial" />
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Contenido -->
+    <main class="flex-1">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
+            <div class="bg-white shadow-md rounded-2xl p-6">
+                @RenderBody()
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="border-t border-slate-200 bg-white">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-4 flex justify-between items-center text-xs text-slate-500">
+            <span>© @DateTime.Now.Year - TechNova</span>
+            <span>Sistema de gestión de tienda • ASP.NET Core MVC</span>
+        </div>
+    </footer>
+
+    @RenderSection("Scripts", required: false)
+</body>
+</html>

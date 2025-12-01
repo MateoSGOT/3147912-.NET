@@ -1,0 +1,52 @@
+﻿@model Tienda.Models.Cliente
+
+@{
+    ViewData["Title"] = "Nuevo cliente";
+}
+
+<h1 class="text-2xl font-semibold text-slate-800 mb-1">Nuevo cliente</h1>
+<p class="text-sm text-slate-500 mb-4">Registra los datos básicos de un cliente.</p>
+
+<form asp-action="Create" method="post" class="space-y-4">
+    <div asp-validation-summary="ModelOnly" class="text-sm text-rose-600 mb-2"></div>
+
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+        <div>
+            <label asp-for="NombreCompleto" class="block text-sm font-medium text-slate-700 mb-1"></label>
+            <input asp-for="NombreCompleto" class="w-full rounded-lg border-slate-300 text-sm focus:ring-indigo-500 focus:border-indigo-500" />
+            <span asp-validation-for="NombreCompleto" class="text-xs text-rose-600"></span>
+        </div>
+        <div>
+            <label asp-for="Correo" class="block text-sm font-medium text-slate-700 mb-1"></label>
+            <input asp-for="Correo" class="w-full rounded-lg border-slate-300 text-sm focus:ring-indigo-500 focus:border-indigo-500" />
+            <span asp-validation-for="Correo" class="text-xs text-rose-600"></span>
+        </div>
+        <div>
+            <label asp-for="Telefono" class="block text-sm font-medium text-slate-700 mb-1"></label>
+            <input asp-for="Telefono" class="w-full rounded-lg border-slate-300 text-sm focus:ring-indigo-500 focus:border-indigo-500" />
+            <span asp-validation-for="Telefono" class="text-xs text-rose-600"></span>
+        </div>
+        <div>
+            <label asp-for="Direccion" class="block text-sm font-medium text-slate-700 mb-1"></label>
+            <input asp-for="Direccion" class="w-full rounded-lg border-slate-300 text-sm focus:ring-indigo-500 focus:border-indigo-500" />
+            <span asp-validation-for="Direccion" class="text-xs text-rose-600"></span>
+        </div>
+    </div>
+
+    <div class="flex justify-end gap-2 pt-2">
+        <a asp-action="Index"
+           class="inline-flex items-center px-4 py-2 rounded-lg text-sm font-medium text-slate-700 bg-slate-100 hover:bg-slate-200">
+            Cancelar
+        </a>
+        <button type="submit"
+                class="inline-flex items-center px-4 py-2 rounded-lg text-sm font-semibold text-white bg-indigo-600 hover:bg-indigo-700">
+            Guardar
+        </button>
+    </div>
+</form>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}
