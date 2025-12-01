@@ -1,0 +1,284 @@
+C:\Users\mateo\source\repos\estructuraControl\proyectoCrud\proyectoCrud\obj\Debug\net8.0\proyectoCrud.csproj.AssemblyReference.cache
+C:\Users\mateo\source\repos\estructuraControl\proyectoCrud\proyectoCrud\obj\Debug\net8.0\proyectoCrud.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mateo\source\repos\estructuraControl\proyectoCrud\proyectoCrud\obj\Debug\net8.0\proyectoCrud.AssemblyInfoInputs.cache
+C:\Users\mateo\source\repos\estructuraControl\proyectoCrud\proyectoCrud\obj\Debug\net8.0\proyectoCrud.AssemblyInfo.cs
+C:\Users\mateo\source\repos\estructuraControl\proyectoCrud\proyectoCrud\obj\Debug\net8.0\proyectoCrud.csproj.CoreCompileInputs.cache
+C:\Users\mateo\source\repos\estructuraControl\proyectoCrud\proyectoCrud\obj\Debug\net8.0\proyectoCrud.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\mateo\source\repos\estructuraControl\proyectoCrud\proyectoCrud\obj\Debug\net8.0\proyectoCrud.RazorAssemblyInfo.cache
+C:\Users\mateo\source\repos\estructuraControl\proyectoCrud\proyectoCrud\obj\Debug\net8.0\proyectoCrud.RazorAssemblyInfo.cs
+C:\Users\mateo\source\repos\estructuraControl\proyectoCrud\proyectoCrud\obj\Debug\net8.0\proyectoCrud.sourcelink.json
+C:\Users\mateo\source\repos\estructuraControl\proyectoCrud\proyectoCrud\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\mateo\source\repos\estructuraControl\proyectoCrud\proyectoCrud\bin\Debug\net8.0\appsettings.json
+C:\Users\mateo\source\repos\estructuraControl\proyectoCrud\proyectoCrud\bin\Debug\net8.0\proyectoCrud.staticwebassets.runtime.json
+C:\Users\mateo\source\repos\estructuraControl\proyectoCrud\proyectoCrud\bin\Debug\net8.0\proyectoCrud.staticwebassets.endpoints.json
+C:\Users\mateo\source\repos\estructuraControl\proyectoCrud\proyectoCrud\bin\Debug\net8.0\proyectoCrud.exe
+C:\Users\mateo\source\repos\estructuraControl\proyectoCrud\proyectoCrud\bin\Debug\net8.0\proyectoCrud.deps.json
+C:\Users\mateo\source\repos\estructuraControl\proyectoCrud\proyectoCrud\bin\Debug\net8.0\proyectoCrud.runtimeconfig.json
+C:\Users\mateo\source\repos\estructuraControl\proyectoCrud\proyectoCrud\bin\Debug\net8.0\proyectoCrud.dll
+C:\Users\mateo\source\repos\estructuraControl\proyectoCrud\proyectoCrud\bin\Debug\net8.0\proyectoCrud.pdb
+C:\Users\mateo\source\repos\estructuraControl\proyectoCrud\proyectoCrud\bin\Debug\net8.0\Azure.Core.dll
+C:\Users\mateo\source\repos\estructuraControl\proyectoCrud\proyectoCrud\bin\Debug\net8.0\Azure.Identity.dll
+C:\Users\mateo\source\repos\estructuraControl\proyectoCrud\proyectoCrud\bin\Debug\net8.0\Humanizer.dll
+C:\Users\mateo\source\repos\estructuraControl\proyectoCrud\proyectoCrud\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\mateo\source\repos\estructuraControl\proyectoCrud\proyectoCrud\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
+C:\Users\mateo\source\repos\estructuraControl\proyectoCrud\proyectoCrud\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\mateo\source\repos\estructuraControl\proyectoCrud\proyectoCrud\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+C:\Users\mateo\source\repos\estructuraControl\proyectoCrud\proyectoCrud\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.dll
+C:\Users\mateo\source\repos\estructuraControl\proyectoCrud\proyectoCrud\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
+C:\Users\mateo\source\repos\estructuraControl\proyectoCrud\proyectoCrud\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\mateo\source\repos\estructuraControl\proyectoCrud\proyectoCrud\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\mateo\source\repos\estructuraControl\proyectoCrud\proyectoCrud\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\mateo\source\repos\estructuraControl\proyectoCrud\proyectoCrud\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\mateo\source\repos\estructuraControl\proyectoCrud\proyectoCrud\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\mateo\source\repos\estructuraControl\proyectoCrud\proyectoCrud\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\mateo\source\repos\estructuraControl\proyectoCrud\proyectoCrud\bin\Debug\net8.0\Microsoft.Identity.Client.dll
+C:\Users\mateo\source\repos\estructuraControl\proyectoCrud\proyectoCrud\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\mateo\source\repos\estructuraControl\proyectoCrud\proyectoCrud\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\mateo\source\repos\estructuraControl\proyectoCrud\proyectoCrud\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\mateo\source\repos\estructuraControl\proyectoCrud\proyectoCrud\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\mateo\source\repos\estructuraControl\proyectoCrud\proyectoCrud\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\mateo\source\repos\estructuraControl\proyectoCrud\proyectoCrud\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\mateo\source\repos\estructuraControl\proyectoCrud\proyectoCrud\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\mateo\source\repos\estructuraControl\proyectoCrud\proyectoCrud\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
+C:\Users\mateo\source\repos\estructuraControl\proyectoCrud\proyectoCrud\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\mateo\source\repos\estructuraControl\proyectoCrud\proyectoCrud\bin\Debug\net8.0\Mono.TextTemplating.dll
+C:\Users\mateo\source\repos\estructuraControl\proyectoCrud\proyectoCrud\bin\Debug\net8.0\System.CodeDom.dll
+C:\Users\mateo\source\repos\estructuraControl\proyectoCrud\proyectoCrud\bin\Debug\net8.0\System.Composition.AttributedModel.dll
+C:\Users\mateo\source\repos\estructuraControl\proyectoCrud\proyectoCrud\bin\Debug\net8.0\System.Composition.Convention.dll
+C:\Users\mateo\source\repos\estructuraControl\proyectoCrud\proyectoCrud\bin\Debug\net8.0\System.Composition.Hosting.dll
+C:\Users\mateo\source\repos\estructuraControl\proyectoCrud\proyectoCrud\bin\Debug\net8.0\System.Composition.Runtime.dll
+C:\Users\mateo\source\repos\estructuraControl\proyectoCrud\proyectoCrud\bin\Debug\net8.0\System.Composition.TypedParts.dll
+C:\Users\mateo\source\repos\estructuraControl\proyectoCrud\proyectoCrud\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+C:\Users\mateo\source\repos\estructuraControl\proyectoCrud\proyectoCrud\bin\Debug\net8.0\System.Drawing.Common.dll
+C:\Users\mateo\source\repos\estructuraControl\proyectoCrud\proyectoCrud\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\mateo\source\repos\estructuraControl\proyectoCrud\proyectoCrud\bin\Debug\net8.0\System.Memory.Data.dll
+C:\Users\mateo\source\repos\estructuraControl\proyectoCrud\proyectoCrud\bin\Debug\net8.0\System.Runtime.Caching.dll
+C:\Users\mateo\source\repos\estructuraControl\proyectoCrud\proyectoCrud\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\mateo\source\repos\estructuraControl\proyectoCrud\proyectoCrud\bin\Debug\net8.0\System.Security.Permissions.dll
+C:\Users\mateo\source\repos\estructuraControl\proyectoCrud\proyectoCrud\bin\Debug\net8.0\System.Windows.Extensions.dll
+C:\Users\mateo\source\repos\estructuraControl\proyectoCrud\proyectoCrud\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.resources.dll
+C:\Users\mateo\source\repos\estructuraControl\proyectoCrud\proyectoCrud\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.resources.dll
+C:\Users\mateo\source\repos\estructuraControl\proyectoCrud\proyectoCrud\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.resources.dll
+C:\Users\mateo\source\repos\estructuraControl\proyectoCrud\proyectoCrud\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\mateo\source\repos\estructuraControl\proyectoCrud\proyectoCrud\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.resources.dll
+C:\Users\mateo\source\repos\estructuraControl\proyectoCrud\proyectoCrud\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.resources.dll
+C:\Users\mateo\source\repos\estructuraControl\proyectoCrud\proyectoCrud\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.resources.dll
+C:\Users\mateo\source\repos\estructuraControl\proyectoCrud\proyectoCrud\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.resources.dll
+C:\Users\mateo\source\repos\estructuraControl\proyectoCrud\proyectoCrud\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+C:\Users\mateo\source\repos\estructuraControl\proyectoCrud\proyectoCrud\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.resources.dll
+C:\Users\mateo\source\repos\estructuraControl\proyectoCrud\proyectoCrud\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\mateo\source\repos\estructuraControl\proyectoCrud\proyectoCrud\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+C:\Users\mateo\source\repos\estructuraControl\proyectoCrud\proyectoCrud\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+C:\Users\mateo\source\repos\estructuraControl\proyectoCrud\proyectoCrud\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\mateo\source\repos\estructuraControl\proyectoCrud\proyectoCrud\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\mateo\source\repos\estructuraControl\proyectoCrud\proyectoCrud\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\mateo\source\repos\estructuraControl\proyectoCrud\proyectoCrud\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\mateo\source\repos\estructuraControl\proyectoCrud\proyectoCrud\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\mateo\source\repos\estructuraControl\proyectoCrud\proyectoCrud\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\mateo\source\repos\estructuraControl\proyectoCrud\proyectoCrud\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\mateo\source\repos\estructuraControl\proyectoCrud\proyectoCrud\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\mateo\source\repos\estructuraControl\proyectoCrud\proyectoCrud\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\mateo\source\repos\estructuraControl\proyectoCrud\proyectoCrud\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\mateo\source\repos\estructuraControl\proyectoCrud\proyectoCrud\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\mateo\source\repos\estructuraControl\proyectoCrud\proyectoCrud\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\mateo\source\repos\estructuraControl\proyectoCrud\proyectoCrud\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\mateo\source\repos\estructuraControl\proyectoCrud\proyectoCrud\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\mateo\source\repos\estructuraControl\proyectoCrud\proyectoCrud\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\mateo\source\repos\estructuraControl\proyectoCrud\proyectoCrud\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\mateo\source\repos\estructuraControl\proyectoCrud\proyectoCrud\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\mateo\source\repos\estructuraControl\proyectoCrud\proyectoCrud\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\mateo\source\repos\estructuraControl\proyectoCrud\proyectoCrud\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\mateo\source\repos\estructuraControl\proyectoCrud\proyectoCrud\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\mateo\source\repos\estructuraControl\proyectoCrud\proyectoCrud\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\mateo\source\repos\estructuraControl\proyectoCrud\proyectoCrud\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\mateo\source\repos\estructuraControl\proyectoCrud\proyectoCrud\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\mateo\source\repos\estructuraControl\proyectoCrud\proyectoCrud\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\mateo\source\repos\estructuraControl\proyectoCrud\proyectoCrud\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\mateo\source\repos\estructuraControl\proyectoCrud\proyectoCrud\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\mateo\source\repos\estructuraControl\proyectoCrud\proyectoCrud\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\mateo\source\repos\estructuraControl\proyectoCrud\proyectoCrud\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\mateo\source\repos\estructuraControl\proyectoCrud\proyectoCrud\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\mateo\source\repos\estructuraControl\proyectoCrud\proyectoCrud\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\mateo\source\repos\estructuraControl\proyectoCrud\proyectoCrud\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\mateo\source\repos\estructuraControl\proyectoCrud\proyectoCrud\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\mateo\source\repos\estructuraControl\proyectoCrud\proyectoCrud\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\mateo\source\repos\estructuraControl\proyectoCrud\proyectoCrud\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\mateo\source\repos\estructuraControl\proyectoCrud\proyectoCrud\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\mateo\source\repos\estructuraControl\proyectoCrud\proyectoCrud\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\mateo\source\repos\estructuraControl\proyectoCrud\proyectoCrud\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\mateo\source\repos\estructuraControl\proyectoCrud\proyectoCrud\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\mateo\source\repos\estructuraControl\proyectoCrud\proyectoCrud\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\mateo\source\repos\estructuraControl\proyectoCrud\proyectoCrud\bin\Debug\net8.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\mateo\source\repos\estructuraControl\proyectoCrud\proyectoCrud\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\mateo\source\repos\estructuraControl\proyectoCrud\proyectoCrud\bin\Debug\net8.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\mateo\source\repos\estructuraControl\proyectoCrud\proyectoCrud\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\mateo\source\repos\estructuraControl\proyectoCrud\proyectoCrud\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\mateo\source\repos\estructuraControl\proyectoCrud\proyectoCrud\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\mateo\source\repos\estructuraControl\proyectoCrud\proyectoCrud\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\mateo\source\repos\estructuraControl\proyectoCrud\proyectoCrud\bin\Debug\net8.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+C:\Users\mateo\source\repos\estructuraControl\proyectoCrud\proyectoCrud\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+C:\Users\mateo\source\repos\estructuraControl\proyectoCrud\proyectoCrud\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+C:\Users\mateo\source\repos\estructuraControl\proyectoCrud\proyectoCrud\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\mateo\source\repos\estructuraControl\proyectoCrud\proyectoCrud\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+C:\Users\mateo\source\repos\estructuraControl\proyectoCrud\proyectoCrud\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\mateo\source\repos\estructuraControl\proyectoCrud\proyectoCrud\obj\Debug\net8.0\scopedcss\bundle\proyectoCrud.styles.css
+C:\Users\mateo\source\repos\estructuraControl\proyectoCrud\proyectoCrud\obj\Debug\net8.0\scopedcss\projectbundle\proyectoCrud.bundle.scp.css
+C:\Users\mateo\source\repos\estructuraControl\proyectoCrud\proyectoCrud\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\mateo\source\repos\estructuraControl\proyectoCrud\proyectoCrud\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\mateo\source\repos\estructuraControl\proyectoCrud\proyectoCrud\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+C:\Users\mateo\source\repos\estructuraControl\proyectoCrud\proyectoCrud\obj\Debug\net8.0\staticwebassets\msbuild.proyectoCrud.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\mateo\source\repos\estructuraControl\proyectoCrud\proyectoCrud\obj\Debug\net8.0\staticwebassets\msbuild.proyectoCrud.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+C:\Users\mateo\source\repos\estructuraControl\proyectoCrud\proyectoCrud\obj\Debug\net8.0\staticwebassets\msbuild.build.proyectoCrud.props
+C:\Users\mateo\source\repos\estructuraControl\proyectoCrud\proyectoCrud\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.proyectoCrud.props
+C:\Users\mateo\source\repos\estructuraControl\proyectoCrud\proyectoCrud\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.proyectoCrud.props
+C:\Users\mateo\source\repos\estructuraControl\proyectoCrud\proyectoCrud\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\mateo\source\repos\estructuraControl\proyectoCrud\proyectoCrud\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+C:\Users\mateo\source\repos\estructuraControl\proyectoCrud\proyectoCrud\obj\Debug\net8.0\proyecto.D7D9AB7B.Up2Date
+C:\Users\mateo\source\repos\estructuraControl\proyectoCrud\proyectoCrud\obj\Debug\net8.0\proyectoCrud.dll
+C:\Users\mateo\source\repos\estructuraControl\proyectoCrud\proyectoCrud\obj\Debug\net8.0\refint\proyectoCrud.dll
+C:\Users\mateo\source\repos\estructuraControl\proyectoCrud\proyectoCrud\obj\Debug\net8.0\proyectoCrud.pdb
+C:\Users\mateo\source\repos\estructuraControl\proyectoCrud\proyectoCrud\obj\Debug\net8.0\proyectoCrud.genruntimeconfig.cache
+C:\Users\mateo\source\repos\estructuraControl\proyectoCrud\proyectoCrud\obj\Debug\net8.0\ref\proyectoCrud.dll
+C:\Users\Sena\source\repos\ficha 3147912\proyectoCrud\proyectoCrud\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\Sena\source\repos\ficha 3147912\proyectoCrud\proyectoCrud\bin\Debug\net8.0\appsettings.json
+C:\Users\Sena\source\repos\ficha 3147912\proyectoCrud\proyectoCrud\bin\Debug\net8.0\proyectoCrud.staticwebassets.runtime.json
+C:\Users\Sena\source\repos\ficha 3147912\proyectoCrud\proyectoCrud\bin\Debug\net8.0\proyectoCrud.exe
+C:\Users\Sena\source\repos\ficha 3147912\proyectoCrud\proyectoCrud\bin\Debug\net8.0\proyectoCrud.deps.json
+C:\Users\Sena\source\repos\ficha 3147912\proyectoCrud\proyectoCrud\bin\Debug\net8.0\proyectoCrud.runtimeconfig.json
+C:\Users\Sena\source\repos\ficha 3147912\proyectoCrud\proyectoCrud\bin\Debug\net8.0\proyectoCrud.dll
+C:\Users\Sena\source\repos\ficha 3147912\proyectoCrud\proyectoCrud\bin\Debug\net8.0\proyectoCrud.pdb
+C:\Users\Sena\source\repos\ficha 3147912\proyectoCrud\proyectoCrud\bin\Debug\net8.0\Azure.Core.dll
+C:\Users\Sena\source\repos\ficha 3147912\proyectoCrud\proyectoCrud\bin\Debug\net8.0\Azure.Identity.dll
+C:\Users\Sena\source\repos\ficha 3147912\proyectoCrud\proyectoCrud\bin\Debug\net8.0\Humanizer.dll
+C:\Users\Sena\source\repos\ficha 3147912\proyectoCrud\proyectoCrud\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Sena\source\repos\ficha 3147912\proyectoCrud\proyectoCrud\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
+C:\Users\Sena\source\repos\ficha 3147912\proyectoCrud\proyectoCrud\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Sena\source\repos\ficha 3147912\proyectoCrud\proyectoCrud\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+C:\Users\Sena\source\repos\ficha 3147912\proyectoCrud\proyectoCrud\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.dll
+C:\Users\Sena\source\repos\ficha 3147912\proyectoCrud\proyectoCrud\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
+C:\Users\Sena\source\repos\ficha 3147912\proyectoCrud\proyectoCrud\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\Sena\source\repos\ficha 3147912\proyectoCrud\proyectoCrud\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Sena\source\repos\ficha 3147912\proyectoCrud\proyectoCrud\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\Sena\source\repos\ficha 3147912\proyectoCrud\proyectoCrud\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\Sena\source\repos\ficha 3147912\proyectoCrud\proyectoCrud\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\Sena\source\repos\ficha 3147912\proyectoCrud\proyectoCrud\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\Sena\source\repos\ficha 3147912\proyectoCrud\proyectoCrud\bin\Debug\net8.0\Microsoft.Identity.Client.dll
+C:\Users\Sena\source\repos\ficha 3147912\proyectoCrud\proyectoCrud\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\Sena\source\repos\ficha 3147912\proyectoCrud\proyectoCrud\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\Sena\source\repos\ficha 3147912\proyectoCrud\proyectoCrud\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Sena\source\repos\ficha 3147912\proyectoCrud\proyectoCrud\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\Sena\source\repos\ficha 3147912\proyectoCrud\proyectoCrud\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\Sena\source\repos\ficha 3147912\proyectoCrud\proyectoCrud\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\Sena\source\repos\ficha 3147912\proyectoCrud\proyectoCrud\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Sena\source\repos\ficha 3147912\proyectoCrud\proyectoCrud\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
+C:\Users\Sena\source\repos\ficha 3147912\proyectoCrud\proyectoCrud\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\Sena\source\repos\ficha 3147912\proyectoCrud\proyectoCrud\bin\Debug\net8.0\Mono.TextTemplating.dll
+C:\Users\Sena\source\repos\ficha 3147912\proyectoCrud\proyectoCrud\bin\Debug\net8.0\System.CodeDom.dll
+C:\Users\Sena\source\repos\ficha 3147912\proyectoCrud\proyectoCrud\bin\Debug\net8.0\System.Composition.AttributedModel.dll
+C:\Users\Sena\source\repos\ficha 3147912\proyectoCrud\proyectoCrud\bin\Debug\net8.0\System.Composition.Convention.dll
+C:\Users\Sena\source\repos\ficha 3147912\proyectoCrud\proyectoCrud\bin\Debug\net8.0\System.Composition.Hosting.dll
+C:\Users\Sena\source\repos\ficha 3147912\proyectoCrud\proyectoCrud\bin\Debug\net8.0\System.Composition.Runtime.dll
+C:\Users\Sena\source\repos\ficha 3147912\proyectoCrud\proyectoCrud\bin\Debug\net8.0\System.Composition.TypedParts.dll
+C:\Users\Sena\source\repos\ficha 3147912\proyectoCrud\proyectoCrud\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+C:\Users\Sena\source\repos\ficha 3147912\proyectoCrud\proyectoCrud\bin\Debug\net8.0\System.Drawing.Common.dll
+C:\Users\Sena\source\repos\ficha 3147912\proyectoCrud\proyectoCrud\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Sena\source\repos\ficha 3147912\proyectoCrud\proyectoCrud\bin\Debug\net8.0\System.Memory.Data.dll
+C:\Users\Sena\source\repos\ficha 3147912\proyectoCrud\proyectoCrud\bin\Debug\net8.0\System.Runtime.Caching.dll
+C:\Users\Sena\source\repos\ficha 3147912\proyectoCrud\proyectoCrud\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Sena\source\repos\ficha 3147912\proyectoCrud\proyectoCrud\bin\Debug\net8.0\System.Security.Permissions.dll
+C:\Users\Sena\source\repos\ficha 3147912\proyectoCrud\proyectoCrud\bin\Debug\net8.0\System.Windows.Extensions.dll
+C:\Users\Sena\source\repos\ficha 3147912\proyectoCrud\proyectoCrud\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Sena\source\repos\ficha 3147912\proyectoCrud\proyectoCrud\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Sena\source\repos\ficha 3147912\proyectoCrud\proyectoCrud\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Sena\source\repos\ficha 3147912\proyectoCrud\proyectoCrud\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Sena\source\repos\ficha 3147912\proyectoCrud\proyectoCrud\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Sena\source\repos\ficha 3147912\proyectoCrud\proyectoCrud\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Sena\source\repos\ficha 3147912\proyectoCrud\proyectoCrud\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Sena\source\repos\ficha 3147912\proyectoCrud\proyectoCrud\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Sena\source\repos\ficha 3147912\proyectoCrud\proyectoCrud\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Sena\source\repos\ficha 3147912\proyectoCrud\proyectoCrud\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Sena\source\repos\ficha 3147912\proyectoCrud\proyectoCrud\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Sena\source\repos\ficha 3147912\proyectoCrud\proyectoCrud\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Sena\source\repos\ficha 3147912\proyectoCrud\proyectoCrud\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Sena\source\repos\ficha 3147912\proyectoCrud\proyectoCrud\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Sena\source\repos\ficha 3147912\proyectoCrud\proyectoCrud\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Sena\source\repos\ficha 3147912\proyectoCrud\proyectoCrud\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Sena\source\repos\ficha 3147912\proyectoCrud\proyectoCrud\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Sena\source\repos\ficha 3147912\proyectoCrud\proyectoCrud\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Sena\source\repos\ficha 3147912\proyectoCrud\proyectoCrud\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Sena\source\repos\ficha 3147912\proyectoCrud\proyectoCrud\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Sena\source\repos\ficha 3147912\proyectoCrud\proyectoCrud\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Sena\source\repos\ficha 3147912\proyectoCrud\proyectoCrud\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Sena\source\repos\ficha 3147912\proyectoCrud\proyectoCrud\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Sena\source\repos\ficha 3147912\proyectoCrud\proyectoCrud\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Sena\source\repos\ficha 3147912\proyectoCrud\proyectoCrud\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Sena\source\repos\ficha 3147912\proyectoCrud\proyectoCrud\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Sena\source\repos\ficha 3147912\proyectoCrud\proyectoCrud\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Sena\source\repos\ficha 3147912\proyectoCrud\proyectoCrud\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Sena\source\repos\ficha 3147912\proyectoCrud\proyectoCrud\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Sena\source\repos\ficha 3147912\proyectoCrud\proyectoCrud\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Sena\source\repos\ficha 3147912\proyectoCrud\proyectoCrud\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Sena\source\repos\ficha 3147912\proyectoCrud\proyectoCrud\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Sena\source\repos\ficha 3147912\proyectoCrud\proyectoCrud\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Sena\source\repos\ficha 3147912\proyectoCrud\proyectoCrud\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Sena\source\repos\ficha 3147912\proyectoCrud\proyectoCrud\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Sena\source\repos\ficha 3147912\proyectoCrud\proyectoCrud\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Sena\source\repos\ficha 3147912\proyectoCrud\proyectoCrud\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Sena\source\repos\ficha 3147912\proyectoCrud\proyectoCrud\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Sena\source\repos\ficha 3147912\proyectoCrud\proyectoCrud\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Sena\source\repos\ficha 3147912\proyectoCrud\proyectoCrud\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Sena\source\repos\ficha 3147912\proyectoCrud\proyectoCrud\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Sena\source\repos\ficha 3147912\proyectoCrud\proyectoCrud\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Sena\source\repos\ficha 3147912\proyectoCrud\proyectoCrud\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Sena\source\repos\ficha 3147912\proyectoCrud\proyectoCrud\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Sena\source\repos\ficha 3147912\proyectoCrud\proyectoCrud\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Sena\source\repos\ficha 3147912\proyectoCrud\proyectoCrud\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Sena\source\repos\ficha 3147912\proyectoCrud\proyectoCrud\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Sena\source\repos\ficha 3147912\proyectoCrud\proyectoCrud\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Sena\source\repos\ficha 3147912\proyectoCrud\proyectoCrud\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Sena\source\repos\ficha 3147912\proyectoCrud\proyectoCrud\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Sena\source\repos\ficha 3147912\proyectoCrud\proyectoCrud\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Sena\source\repos\ficha 3147912\proyectoCrud\proyectoCrud\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Sena\source\repos\ficha 3147912\proyectoCrud\proyectoCrud\bin\Debug\net8.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\Sena\source\repos\ficha 3147912\proyectoCrud\proyectoCrud\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\Sena\source\repos\ficha 3147912\proyectoCrud\proyectoCrud\bin\Debug\net8.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Sena\source\repos\ficha 3147912\proyectoCrud\proyectoCrud\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Sena\source\repos\ficha 3147912\proyectoCrud\proyectoCrud\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Sena\source\repos\ficha 3147912\proyectoCrud\proyectoCrud\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Sena\source\repos\ficha 3147912\proyectoCrud\proyectoCrud\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\Sena\source\repos\ficha 3147912\proyectoCrud\proyectoCrud\bin\Debug\net8.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+C:\Users\Sena\source\repos\ficha 3147912\proyectoCrud\proyectoCrud\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+C:\Users\Sena\source\repos\ficha 3147912\proyectoCrud\proyectoCrud\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+C:\Users\Sena\source\repos\ficha 3147912\proyectoCrud\proyectoCrud\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Sena\source\repos\ficha 3147912\proyectoCrud\proyectoCrud\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+C:\Users\Sena\source\repos\ficha 3147912\proyectoCrud\proyectoCrud\obj\Debug\net8.0\proyectoCrud.csproj.AssemblyReference.cache
+C:\Users\Sena\source\repos\ficha 3147912\proyectoCrud\proyectoCrud\obj\Debug\net8.0\proyectoCrud.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Sena\source\repos\ficha 3147912\proyectoCrud\proyectoCrud\obj\Debug\net8.0\proyectoCrud.AssemblyInfoInputs.cache
+C:\Users\Sena\source\repos\ficha 3147912\proyectoCrud\proyectoCrud\obj\Debug\net8.0\proyectoCrud.AssemblyInfo.cs
+C:\Users\Sena\source\repos\ficha 3147912\proyectoCrud\proyectoCrud\obj\Debug\net8.0\proyectoCrud.csproj.CoreCompileInputs.cache
+C:\Users\Sena\source\repos\ficha 3147912\proyectoCrud\proyectoCrud\obj\Debug\net8.0\proyectoCrud.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Sena\source\repos\ficha 3147912\proyectoCrud\proyectoCrud\obj\Debug\net8.0\proyectoCrud.RazorAssemblyInfo.cache
+C:\Users\Sena\source\repos\ficha 3147912\proyectoCrud\proyectoCrud\obj\Debug\net8.0\proyectoCrud.RazorAssemblyInfo.cs
+C:\Users\Sena\source\repos\ficha 3147912\proyectoCrud\proyectoCrud\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\Sena\source\repos\ficha 3147912\proyectoCrud\proyectoCrud\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\Sena\source\repos\ficha 3147912\proyectoCrud\proyectoCrud\obj\Debug\net8.0\staticwebassets\msbuild.proyectoCrud.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Sena\source\repos\ficha 3147912\proyectoCrud\proyectoCrud\obj\Debug\net8.0\staticwebassets\msbuild.build.proyectoCrud.props
+C:\Users\Sena\source\repos\ficha 3147912\proyectoCrud\proyectoCrud\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.proyectoCrud.props
+C:\Users\Sena\source\repos\ficha 3147912\proyectoCrud\proyectoCrud\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.proyectoCrud.props
+C:\Users\Sena\source\repos\ficha 3147912\proyectoCrud\proyectoCrud\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\Sena\source\repos\ficha 3147912\proyectoCrud\proyectoCrud\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\Sena\source\repos\ficha 3147912\proyectoCrud\proyectoCrud\obj\Debug\net8.0\scopedcss\bundle\proyectoCrud.styles.css
+C:\Users\Sena\source\repos\ficha 3147912\proyectoCrud\proyectoCrud\obj\Debug\net8.0\scopedcss\projectbundle\proyectoCrud.bundle.scp.css
+C:\Users\Sena\source\repos\ficha 3147912\proyectoCrud\proyectoCrud\obj\Debug\net8.0\proyecto.D7D9AB7B.Up2Date
+C:\Users\Sena\source\repos\ficha 3147912\proyectoCrud\proyectoCrud\obj\Debug\net8.0\proyectoCrud.dll
+C:\Users\Sena\source\repos\ficha 3147912\proyectoCrud\proyectoCrud\obj\Debug\net8.0\refint\proyectoCrud.dll
+C:\Users\Sena\source\repos\ficha 3147912\proyectoCrud\proyectoCrud\obj\Debug\net8.0\proyectoCrud.pdb
+C:\Users\Sena\source\repos\ficha 3147912\proyectoCrud\proyectoCrud\obj\Debug\net8.0\proyectoCrud.genruntimeconfig.cache
+C:\Users\Sena\source\repos\ficha 3147912\proyectoCrud\proyectoCrud\obj\Debug\net8.0\ref\proyectoCrud.dll
+C:\Users\mateo\source\repos\estructuraControl\proyectoCrud\proyectoCrud\bin\Debug\net8.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\mateo\source\repos\estructuraControl\proyectoCrud\proyectoCrud\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\mateo\source\repos\estructuraControl\proyectoCrud\proyectoCrud\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\mateo\source\repos\estructuraControl\proyectoCrud\proyectoCrud\bin\Debug\net8.0\Microsoft.Extensions.Logging.dll
+C:\Users\mateo\source\repos\estructuraControl\proyectoCrud\proyectoCrud\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\mateo\source\repos\estructuraControl\proyectoCrud\proyectoCrud\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+C:\Users\mateo\source\repos\estructuraControl\proyectoCrud\proyectoCrud\bin\Debug\net8.0\System.ClientModel.dll
