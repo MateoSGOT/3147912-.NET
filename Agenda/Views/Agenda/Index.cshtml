@@ -1,0 +1,196 @@
+﻿@model Agenda.ViewModels.Agenda.AgendaIndexVm
+@{
+    ViewData["Title"] = "Agenda";
+    ViewData["Subtitle"] = $"Semana: {Model.SemanaInicioLocal:yyyy-MM-dd} → {Model.SemanaFinLocal:yyyy-MM-dd}";
+    var prevWeek = Model.SemanaInicioLocal.AddDays(-7);
+    var nextWeek = Model.SemanaInicioLocal.AddDays(7);
+}
+
+<div class="rounded-2xl border border-slate-200 bg-white shadow-sm">
+    <div class="p-4 sm:p-6 border-b border-slate-200">
+        <div class="flex flex-col lg:flex-row lg:items-end lg:justify-between gap-4">
+            <div class="flex items-center gap-2">
+                <a asp-action="Index"
+                   asp-route-weekStart="@prevWeek.ToString("yyyy-MM-dd")"
+                   asp-route-mecanicoId="@Model.MecanicoId"
+                   asp-route-bahiaId="@Model.BahiaId"
+                   asp-route-estado="@Model.Estado"
+                   asp-route-search="@Model.Search"
+                   class="rounded-xl border border-slate-200 bg-white px-3 py-2 text-sm font-semibold hover:bg-slate-50">
+                    ← Semana anterior
+                </a>
+
+                <a asp-action="Index"
+                   asp-route-weekStart="@nextWeek.ToString("yyyy-MM-dd")"
+                   asp-route-mecanicoId="@Model.MecanicoId"
+                   asp-route-bahiaId="@Model.BahiaId"
+                   asp-route-estado="@Model.Estado"
+                   asp-route-search="@Model.Search"
+                   class="rounded-xl border border-slate-200 bg-white px-3 py-2 text-sm font-semibold hover:bg-slate-50">
+                    Semana siguiente →
+                </a>
+
+                <a asp-action="Index"
+                   class="rounded-xl border border-slate-200 bg-white px-3 py-2 text-sm font-semibold hover:bg-slate-50">
+                    Hoy
+                </a>
+            </div>
+
+            <form method="get" class="grid grid-cols-1 md:grid-cols-5 gap-3 w-full lg:w-auto">
+                <input type="hidden" name="weekStart" value="@Model.SemanaInicioLocal.ToString("yyyy-MM-dd")" />
+
+                <div>
+                    <label class="block text-xs font-semibold text-slate-600 mb-1">Mecánico</label>
+                    <select name="mecanicoId"
+                            class="w-full rounded-xl border border-slate-200 bg-white px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-slate-300">
+                        <option value="">Todos</option>
+                        @foreach (var m in Model.Mecanicos)
+                        {
+                            <option value="@m.Id" selected="@(Model.MecanicoId == m.Id)">
+                                @m.Text
+                            </option>
+                        }
+                    </select>
+                </div>
+
+                <div>
+                    <label class="block text-xs font-semibold text-slate-600 mb-1">Bahía</label>
+                    <select name="bahiaId"
+                            class="w-full rounded-xl border border-slate-200 bg-white px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-slate-300">
+                        <option value="">Todas</option>
+                        @foreach (var b in Model.Bahias)
+                        {
+                            <option value="@b.Id" selected="@(Model.BahiaId == b.Id)">
+                                @b.Text
+                            </option>
+                        }
+                    </select>
+                </div>
+
+                <div>
+                    <label class="block text-xs font-semibold text-slate-600 mb-1">Estado</label>
+                    <select name="estado"
+                            class="w-full rounded-xl border border-slate-200 bg-white px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-slate-300">
+                        <option value="">Todos</option>
+                        @foreach (var e in Model.Estados)
+                        {
+                            <option value="@e.Id" selected="@(Model.Estado.HasValue && (int)Model.Estado.Value == e.Id)">
+                                @e.Text
+                            </option>
+                        }
+                    </select>
+                </div>
+
+                <div>
+                    <label class="block text-xs font-semibold text-slate-600 mb-1">Buscar</label>
+                    <input name="search"
+                           value="@Model.Search"
+                           placeholder="Placa / cliente / tel..."
+                           class="w-full rounded-xl border border-slate-200 bg-white px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-slate-300" />
+                </div>
+
+                <div class="flex items-end gap-2">
+                    <button class="w-full rounded-xl bg-slate-900 px-4 py-2 text-sm font-semibold text-white hover:bg-slate-800">
+                        Filtrar
+                    </button>
+                    <a asp-action="Index"
+                       asp-route-weekStart="@Model.SemanaInicioLocal.ToString("yyyy-MM-dd")"
+                       class="rounded-xl border border-slate-200 bg-white px-4 py-2 text-sm font-semibold hover:bg-slate-50">
+                        Limpiar
+                    </a>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <div class="p-4 sm:p-6">
+        @if (Model.Citas.Count == 0)
+        {
+            <div class="rounded-2xl border border-slate-200 bg-slate-50 p-6">
+                <div class="text-lg font-semibold">Sin citas en esta semana</div>
+                <div class="text-sm text-slate-600 mt-1">Crea una nueva cita o ajusta los filtros.</div>
+                <div class="mt-4">
+                    <a asp-action="Create" class="inline-flex items-center rounded-xl bg-slate-900 px-4 py-2 text-sm font-semibold text-white hover:bg-slate-800">
+                        + Nueva cita
+                    </a>
+                </div>
+            </div>
+        }
+        else
+        {
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-4">
+                @for (int i = 0; i < 7; i++)
+                {
+                    var day = Model.SemanaInicioLocal.AddDays(i).Date;
+                    var has = Model.CitasPorDia.ContainsKey(day);
+                    var items = has ? Model.CitasPorDia[day] : new List<Agenda.ViewModels.Agenda.CitaCardVm>();
+
+                    <div class="rounded-2xl border border-slate-200 bg-white">
+                        <div class="flex items-center justify-between border-b border-slate-200 px-4 py-3">
+                            <div>
+                                <div class="text-sm font-semibold text-slate-900">@day:dddd</div>
+                                <div class="text-xs text-slate-500">@day:yyyy-MM-dd</div>
+                            </div>
+                            <a asp-action="Create" asp-route-inicio="@day.AddHours(8).ToString("yyyy-MM-ddTHH:mm")"
+                               class="rounded-xl border border-slate-200 bg-white px-3 py-2 text-xs font-semibold hover:bg-slate-50">
+                                + Cita
+                            </a>
+                        </div>
+
+                        <div class="p-4 space-y-3">
+                            @if (items.Count == 0)
+                            {
+                                <div class="text-sm text-slate-500">No hay citas.</div>
+                            }
+                            else
+                            {
+                                @foreach (var c in items)
+                                {
+                                    <a asp-action="Details" asp-route-id="@c.Id"
+                                       class="block rounded-2xl border border-slate-200 bg-slate-50 p-4 hover:bg-slate-100 transition">
+                                        <div class="flex items-start justify-between gap-3">
+                                            <div>
+                                                <div class="text-sm font-bold">
+                                                    @c.InicioLocal:HH:mm - @c.FinLocal:HH:mm
+                                                    <span class="ml-2 inline-flex items-center rounded-full bg-white px-2 py-0.5 text-xs font-semibold border border-slate-200">
+                                                        @c.Estado
+                                                    </span>
+                                                    @if (c.EsReprogramada)
+                                                    {
+                                                        <span class="ml-2 inline-flex items-center rounded-full bg-amber-50 px-2 py-0.5 text-xs font-semibold border border-amber-200 text-amber-800">
+                                                            Reprogramada
+                                                        </span>
+                                                    }
+                                                </div>
+                                                <div class="mt-1 text-sm text-slate-700">
+                                                    <span class="font-semibold">@c.Placa</span> · @c.Cliente
+                                                </div>
+                                                <div class="mt-1 text-xs text-slate-600">
+                                                    @c.TipoServicio
+                                                    @if (!string.IsNullOrWhiteSpace(c.Mecanico))
+                                                    {
+                                                        <span> · Mec: @c.Mecanico</span>
+                                                    }
+                                                    @if (!string.IsNullOrWhiteSpace(c.Bahia))
+                                                    {
+                                                        <span> · Bahía: @c.Bahia</span>
+                                                    }
+                                                </div>
+                                            </div>
+
+                                            <div class="text-xs font-semibold">
+                                                <span class="inline-flex items-center rounded-full bg-white px-2 py-1 border border-slate-200">
+                                                    @c.Prioridad
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </a>
+                                }
+                            }
+                        </div>
+                    </div>
+                }
+            </div>
+        }
+    </div>
+</div>

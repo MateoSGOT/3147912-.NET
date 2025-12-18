@@ -1,0 +1,193 @@
+﻿@model Agenda.ViewModels.Agenda.CitaDetalleVm
+@{
+    ViewData["Title"] = "Detalle de cita";
+    ViewData["Subtitle"] = $"#{Model.Id} · {Model.Placa} · {Model.Cliente}";
+}
+
+<div class="grid grid-cols-1 lg:grid-cols-3 gap-6">
+    <div class="lg:col-span-2 space-y-6">
+
+        <div class="rounded-2xl border border-slate-200 bg-white shadow-sm p-4 sm:p-6">
+            <div class="flex flex-col sm:flex-row sm:items-start sm:justify-between gap-4">
+                <div>
+                    <div class="text-lg font-bold">
+                        @Model.InicioLocal:yyyy-MM-dd HH:mm — @Model.FinLocal:HH:mm
+                    </div>
+                    <div class="text-sm text-slate-600 mt-1">
+                        Duración: <span class="font-semibold">@Model.DuracionMinutos</span> min
+                    </div>
+
+                    <div class="mt-3 flex flex-wrap gap-2">
+                        <span class="inline-flex items-center rounded-full border border-slate-200 bg-white px-3 py-1 text-xs font-semibold">
+                            Estado: @Model.Estado
+                        </span>
+                        <span class="inline-flex items-center rounded-full border border-slate-200 bg-white px-3 py-1 text-xs font-semibold">
+                            Prioridad: @Model.Prioridad
+                        </span>
+                        @if (Model.EsReprogramada)
+                        {
+                            <span class="inline-flex items-center rounded-full border border-amber-200 bg-amber-50 px-3 py-1 text-xs font-semibold text-amber-800">
+                                Reprogramada
+                            </span>
+                        }
+                    </div>
+                </div>
+
+                <div class="flex flex-wrap gap-2">
+                    <a asp-action="Edit" asp-route-id="@Model.Id"
+                       class="rounded-xl border border-slate-200 bg-white px-4 py-2 text-sm font-semibold hover:bg-slate-50">
+                        Editar
+                    </a>
+                    <a asp-action="Reprogramar" asp-route-id="@Model.Id"
+                       class="rounded-xl border border-slate-200 bg-white px-4 py-2 text-sm font-semibold hover:bg-slate-50">
+                        Reprogramar
+                    </a>
+                    <a asp-action="CambiarEstado" asp-route-id="@Model.Id"
+                       class="rounded-xl bg-slate-900 px-4 py-2 text-sm font-semibold text-white hover:bg-slate-800">
+                        Cambiar estado
+                    </a>
+                    <a asp-action="Eliminar" asp-route-id="@Model.Id"
+                       class="rounded-xl border border-rose-200 bg-rose-50 px-4 py-2 text-sm font-semibold text-rose-900 hover:bg-rose-100">
+                        Anular
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="rounded-2xl border border-slate-200 bg-white shadow-sm p-4 sm:p-6">
+            <div class="text-sm font-semibold">Cliente y vehículo</div>
+
+            <div class="mt-3 grid grid-cols-1 md:grid-cols-2 gap-4 text-sm">
+                <div class="rounded-2xl border border-slate-200 bg-slate-50 p-4">
+                    <div class="text-xs text-slate-500">Cliente</div>
+                    <div class="font-semibold">@Model.Cliente</div>
+                    <div class="text-xs text-slate-500 mt-2">Teléfono</div>
+                    <div class="font-semibold">@Model.Telefono</div>
+                </div>
+
+                <div class="rounded-2xl border border-slate-200 bg-slate-50 p-4">
+                    <div class="text-xs text-slate-500">Vehículo</div>
+                    <div class="font-semibold">@Model.Placa</div>
+                    <div class="text-xs text-slate-500 mt-2">Marca / Modelo</div>
+                    <div class="font-semibold">@((Model.Marca ?? "-") + " · " + (Model.LineaModelo ?? "-"))</div>
+                </div>
+            </div>
+
+            <div class="mt-4 grid grid-cols-1 md:grid-cols-2 gap-4 text-sm">
+                <div class="rounded-2xl border border-slate-200 bg-slate-50 p-4">
+                    <div class="text-xs text-slate-500">Servicio</div>
+                    <div class="font-semibold">@Model.TipoServicio</div>
+                    <div class="text-xs text-slate-500 mt-2">Mecánico</div>
+                    <div class="font-semibold">@(!string.IsNullOrWhiteSpace(Model.Mecanico) ? Model.Mecanico : "—")</div>
+                </div>
+
+                <div class="rounded-2xl border border-slate-200 bg-slate-50 p-4">
+                    <div class="text-xs text-slate-500">Bahía</div>
+                    <div class="font-semibold">@(!string.IsNullOrWhiteSpace(Model.Bahia) ? Model.Bahia : "—")</div>
+                    <div class="text-xs text-slate-500 mt-2">Valor estimado</div>
+                    <div class="font-semibold">@((Model.ValorEstimado.HasValue) ? Model.ValorEstimado.Value.ToString("N0") : "—")</div>
+                </div>
+            </div>
+
+            @if (!string.IsNullOrWhiteSpace(Model.MotivoIngreso) || !string.IsNullOrWhiteSpace(Model.NotasInternas))
+            {
+                <div class="mt-4 grid grid-cols-1 gap-4">
+                    @if (!string.IsNullOrWhiteSpace(Model.MotivoIngreso))
+                    {
+                        <div class="rounded-2xl border border-slate-200 bg-white p-4">
+                            <div class="text-xs font-semibold text-slate-600">Motivo de ingreso</div>
+                            <div class="text-sm text-slate-800 mt-1">@Model.MotivoIngreso</div>
+                        </div>
+                    }
+                    @if (!string.IsNullOrWhiteSpace(Model.NotasInternas))
+                    {
+                        <div class="rounded-2xl border border-slate-200 bg-white p-4">
+                            <div class="text-xs font-semibold text-slate-600">Notas internas</div>
+                            <div class="text-sm text-slate-800 mt-1">@Model.NotasInternas</div>
+                        </div>
+                    }
+                </div>
+            }
+        </div>
+
+        <div class="rounded-2xl border border-slate-200 bg-white shadow-sm p-4 sm:p-6">
+            <div class="text-sm font-semibold">Historial (Logs)</div>
+
+            @if (Model.Logs.Count == 0)
+            {
+                <div class="mt-3 text-sm text-slate-500">No hay logs.</div>
+            }
+            else
+            {
+                <div class="mt-4 space-y-3">
+                    @foreach (var l in Model.Logs)
+                    {
+                        <div class="rounded-2xl border border-slate-200 bg-slate-50 p-4">
+                            <div class="flex items-start justify-between gap-3">
+                                <div>
+                                    <div class="text-sm font-semibold">@l.Accion</div>
+                                    <div class="text-xs text-slate-500">@l.FechaLocal:yyyy-MM-dd HH:mm · @l.Usuario</div>
+                                </div>
+                                <div class="text-xs text-slate-500">Log</div>
+                            </div>
+                            @if (!string.IsNullOrWhiteSpace(l.Detalle))
+                            {
+                                <div class="mt-2 text-sm text-slate-700">@l.Detalle</div>
+                            }
+                        </div>
+                    }
+                </div>
+            }
+        </div>
+
+    </div>
+
+    <div class="space-y-6">
+        <div class="rounded-2xl border border-slate-200 bg-white shadow-sm p-4 sm:p-6">
+            <div class="text-sm font-semibold">Acciones rápidas</div>
+            <div class="mt-4 space-y-2">
+                <a asp-action="Index"
+                   class="block w-full text-center rounded-xl border border-slate-200 bg-white px-4 py-2 text-sm font-semibold hover:bg-slate-50">
+                    Volver a Agenda
+                </a>
+                <a asp-action="Disponibilidad"
+                   class="block w-full text-center rounded-xl border border-slate-200 bg-white px-4 py-2 text-sm font-semibold hover:bg-slate-50">
+                    Ver disponibilidad
+                </a>
+            </div>
+        </div>
+
+        <div class="rounded-2xl border border-slate-200 bg-white shadow-sm p-4 sm:p-6">
+            <div class="text-sm font-semibold">Check-in</div>
+
+            @if (Model.CheckIn == null)
+            {
+                <div class="mt-3 text-sm text-slate-500">No hay información de check-in.</div>
+            }
+            else
+            {
+                <div class="mt-4 space-y-3 text-sm">
+                    <div class="rounded-2xl border border-slate-200 bg-slate-50 p-4">
+                        <div class="text-xs text-slate-500">Llegada</div>
+                        <div class="font-semibold">@((Model.CheckIn.HoraLlegadaLocal?.ToString("yyyy-MM-dd HH:mm")) ?? "—")</div>
+                    </div>
+                    <div class="rounded-2xl border border-slate-200 bg-slate-50 p-4">
+                        <div class="text-xs text-slate-500">Inicio trabajo</div>
+                        <div class="font-semibold">@((Model.CheckIn.HoraInicioTrabajoLocal?.ToString("yyyy-MM-dd HH:mm")) ?? "—")</div>
+                    </div>
+                    <div class="rounded-2xl border border-slate-200 bg-slate-50 p-4">
+                        <div class="text-xs text-slate-500">Entrega</div>
+                        <div class="font-semibold">@((Model.CheckIn.HoraEntregaLocal?.ToString("yyyy-MM-dd HH:mm")) ?? "—")</div>
+                    </div>
+                    @if (!string.IsNullOrWhiteSpace(Model.CheckIn.ObservacionesRecepcion))
+                    {
+                        <div class="rounded-2xl border border-slate-200 bg-white p-4">
+                            <div class="text-xs font-semibold text-slate-600">Observaciones</div>
+                            <div class="mt-1">@Model.CheckIn.ObservacionesRecepcion</div>
+                        </div>
+                    }
+                </div>
+            }
+        </div>
+    </div>
+</div>

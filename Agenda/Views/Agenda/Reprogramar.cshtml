@@ -1,0 +1,75 @@
+﻿@model Agenda.ViewModels.Agenda.ReprogramarVm
+@{
+    ViewData["Title"] = "Reprogramar";
+    ViewData["Subtitle"] = Model.ResumenCita;
+}
+
+<div class="rounded-2xl border border-slate-200 bg-white shadow-sm">
+    <form method="post" class="p-4 sm:p-6 space-y-5">
+        @Html.AntiForgeryToken()
+        <input type="hidden" asp-for="CitaId" />
+        <input type="hidden" asp-for="RowVersionBase64" />
+
+        @if (!string.IsNullOrWhiteSpace(Model.DomainError))
+        {
+            <div class="rounded-2xl border border-rose-200 bg-rose-50 p-4 text-rose-900">
+                <div class="font-semibold">No se pudo reprogramar</div>
+                <div class="text-sm">@Model.DomainError</div>
+            </div>
+        }
+
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+            <div>
+                <label class="block text-xs font-semibold text-slate-600 mb-1">Nuevo inicio</label>
+                <input asp-for="NuevoInicioLocal" type="datetime-local"
+                       class="w-full rounded-xl border border-slate-200 bg-white px-3 py-2 text-sm" />
+                <span class="text-xs text-rose-600">@Html.ValidationMessageFor(m => m.NuevoInicioLocal)</span>
+            </div>
+
+            <div>
+                <label class="block text-xs font-semibold text-slate-600 mb-1">Duración (min)</label>
+                <input asp-for="DuracionMinutosOverride" type="number" min="15" max="600"
+                       class="w-full rounded-xl border border-slate-200 bg-white px-3 py-2 text-sm" />
+            </div>
+
+            <div>
+                <label class="block text-xs font-semibold text-slate-600 mb-1">Nuevo mecánico (opcional)</label>
+                <select asp-for="NuevoMecanicoId" class="w-full rounded-xl border border-slate-200 bg-white px-3 py-2 text-sm">
+                    <option value="">-- Mantener / No asignar --</option>
+                    @foreach (var m in Model.Mecanicos)
+                    {
+                        <option value="@m.Id" selected="@(Model.NuevoMecanicoId == m.Id)">@m.Text</option>
+                    }
+                </select>
+            </div>
+
+            <div>
+                <label class="block text-xs font-semibold text-slate-600 mb-1">Nueva bahía (opcional)</label>
+                <select asp-for="NuevaBahiaId" class="w-full rounded-xl border border-slate-200 bg-white px-3 py-2 text-sm">
+                    <option value="">-- Mantener / No asignar --</option>
+                    @foreach (var b in Model.Bahias)
+                    {
+                        <option value="@b.Id" selected="@(Model.NuevaBahiaId == b.Id)">@b.Text</option>
+                    }
+                </select>
+            </div>
+        </div>
+
+        <div>
+            <label class="block text-xs font-semibold text-slate-600 mb-1">Motivo</label>
+            <textarea asp-for="Motivo" rows="2"
+                      class="w-full rounded-xl border border-slate-200 bg-white px-3 py-2 text-sm"></textarea>
+            <span class="text-xs text-rose-600">@Html.ValidationMessageFor(m => m.Motivo)</span>
+        </div>
+
+        <div class="flex items-center justify-end gap-2 pt-2">
+            <a asp-action="Details" asp-route-id="@Model.CitaId"
+               class="rounded-xl border border-slate-200 bg-white px-4 py-2 text-sm font-semibold hover:bg-slate-50">
+                Cancelar
+            </a>
+            <button class="rounded-xl bg-slate-900 px-4 py-2 text-sm font-semibold text-white hover:bg-slate-800">
+                Confirmar reprogramación
+            </button>
+        </div>
+    </form>
+</div>

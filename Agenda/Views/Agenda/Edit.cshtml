@@ -1,0 +1,133 @@
+﻿@model Agenda.ViewModels.Agenda.CitaEditVm
+@{
+    ViewData["Title"] = "Editar cita";
+    ViewData["Subtitle"] = $"#{Model.Id} · {Model.PlacaActual} · {Model.ClienteActual}";
+}
+
+<div class="rounded-2xl border border-slate-200 bg-white shadow-sm">
+    <form method="post" class="p-4 sm:p-6 space-y-5">
+        @Html.AntiForgeryToken()
+        <input type="hidden" asp-for="Id" />
+        <input type="hidden" asp-for="RowVersionBase64" />
+
+        @if (!string.IsNullOrWhiteSpace(Model.DomainError))
+        {
+            <div class="rounded-2xl border border-rose-200 bg-rose-50 p-4 text-rose-900">
+                <div class="font-semibold">No se pudo guardar</div>
+                <div class="text-sm">@Model.DomainError</div>
+            </div>
+        }
+
+        <div class="rounded-2xl border border-slate-200 bg-slate-50 p-4">
+            <div class="text-sm font-semibold">Resumen</div>
+            <div class="text-sm text-slate-700 mt-1">
+                Servicio: <span class="font-semibold">@Model.TipoServicioActual</span> ·
+                Estado: <span class="font-semibold">@Model.EstadoActual</span>
+            </div>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+            <div>
+                <label class="block text-xs font-semibold text-slate-600 mb-1">Vehículo</label>
+                <select asp-for="VehiculoId" class="w-full rounded-xl border border-slate-200 bg-white px-3 py-2 text-sm">
+                    <option value="">-- Selecciona --</option>
+                    @foreach (var v in Model.Vehiculos)
+                    {
+                        <option value="@v.Id" selected="@(Model.VehiculoId == v.Id)">@v.Text</option>
+                    }
+                </select>
+                <span class="text-xs text-rose-600">@Html.ValidationMessageFor(m => m.VehiculoId)</span>
+            </div>
+
+            <div>
+                <label class="block text-xs font-semibold text-slate-600 mb-1">Tipo de servicio</label>
+                <select asp-for="TipoServicioId" class="w-full rounded-xl border border-slate-200 bg-white px-3 py-2 text-sm">
+                    <option value="">-- Selecciona --</option>
+                    @foreach (var t in Model.TiposServicio)
+                    {
+                        <option value="@t.Id" selected="@(Model.TipoServicioId == t.Id)">@t.Text</option>
+                    }
+                </select>
+                <span class="text-xs text-rose-600">@Html.ValidationMessageFor(m => m.TipoServicioId)</span>
+            </div>
+
+            <div>
+                <label class="block text-xs font-semibold text-slate-600 mb-1">Mecánico</label>
+                <select asp-for="MecanicoId" class="w-full rounded-xl border border-slate-200 bg-white px-3 py-2 text-sm">
+                    <option value="">-- No asignar --</option>
+                    @foreach (var m in Model.Mecanicos)
+                    {
+                        <option value="@m.Id" selected="@(Model.MecanicoId == m.Id)">@m.Text</option>
+                    }
+                </select>
+            </div>
+
+            <div>
+                <label class="block text-xs font-semibold text-slate-600 mb-1">Bahía</label>
+                <select asp-for="BahiaId" class="w-full rounded-xl border border-slate-200 bg-white px-3 py-2 text-sm">
+                    <option value="">-- No asignar --</option>
+                    @foreach (var b in Model.Bahias)
+                    {
+                        <option value="@b.Id" selected="@(Model.BahiaId == b.Id)">@b.Text</option>
+                    }
+                </select>
+            </div>
+
+            <div>
+                <label class="block text-xs font-semibold text-slate-600 mb-1">Inicio</label>
+                <input asp-for="InicioLocal" type="datetime-local"
+                       class="w-full rounded-xl border border-slate-200 bg-white px-3 py-2 text-sm" />
+            </div>
+
+            <div>
+                <label class="block text-xs font-semibold text-slate-600 mb-1">Duración (min)</label>
+                <input asp-for="DuracionMinutosOverride" type="number" min="15" max="600"
+                       class="w-full rounded-xl border border-slate-200 bg-white px-3 py-2 text-sm" />
+            </div>
+
+            <div>
+                <label class="block text-xs font-semibold text-slate-600 mb-1">Prioridad</label>
+                <select asp-for="Prioridad" class="w-full rounded-xl border border-slate-200 bg-white px-3 py-2 text-sm">
+                    @foreach (var p in Model.Prioridades)
+                    {
+                        <option value="@p.Id" selected="@( (int)Model.Prioridad == p.Id )">@p.Text</option>
+                    }
+                </select>
+            </div>
+
+            <div>
+                <label class="block text-xs font-semibold text-slate-600 mb-1">Valor estimado</label>
+                <input asp-for="ValorEstimado" type="number" step="0.01" min="0"
+                       class="w-full rounded-xl border border-slate-200 bg-white px-3 py-2 text-sm" />
+            </div>
+        </div>
+
+        <div>
+            <label class="block text-xs font-semibold text-slate-600 mb-1">Motivo de ingreso</label>
+            <textarea asp-for="MotivoIngreso" rows="2"
+                      class="w-full rounded-xl border border-slate-200 bg-white px-3 py-2 text-sm"></textarea>
+        </div>
+
+        <div>
+            <label class="block text-xs font-semibold text-slate-600 mb-1">Notas internas</label>
+            <textarea asp-for="NotasInternas" rows="3"
+                      class="w-full rounded-xl border border-slate-200 bg-white px-3 py-2 text-sm"></textarea>
+        </div>
+
+        <div class="flex items-center justify-between gap-2 pt-2">
+            <a asp-action="Details" asp-route-id="@Model.Id"
+               class="rounded-xl border border-slate-200 bg-white px-4 py-2 text-sm font-semibold hover:bg-slate-50">
+                Volver
+            </a>
+            <div class="flex items-center gap-2">
+                <a asp-action="Reprogramar" asp-route-id="@Model.Id"
+                   class="rounded-xl border border-slate-200 bg-white px-4 py-2 text-sm font-semibold hover:bg-slate-50">
+                    Reprogramar
+                </a>
+                <button class="rounded-xl bg-slate-900 px-4 py-2 text-sm font-semibold text-white hover:bg-slate-800">
+                    Guardar cambios
+                </button>
+            </div>
+        </div>
+    </form>
+</div>

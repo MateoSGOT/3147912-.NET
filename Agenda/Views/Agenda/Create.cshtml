@@ -1,0 +1,142 @@
+﻿@model Agenda.ViewModels.Agenda.CitaCreateVm
+@{
+    ViewData["Title"] = "Nueva cita";
+    ViewData["Subtitle"] = "Crea una cita con validación avanzada (choques, bloqueos, horario).";
+}
+
+<div class="grid grid-cols-1 lg:grid-cols-3 gap-6">
+    <div class="lg:col-span-2 rounded-2xl border border-slate-200 bg-white shadow-sm">
+        <form method="post" class="p-4 sm:p-6 space-y-5">
+            @Html.AntiForgeryToken()
+
+            @if (!string.IsNullOrWhiteSpace(Model.DomainError))
+            {
+                <div class="rounded-2xl border border-rose-200 bg-rose-50 p-4 text-rose-900">
+                    <div class="font-semibold">No se pudo crear</div>
+                    <div class="text-sm">@Model.DomainError</div>
+                </div>
+            }
+
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                <div>
+                    <label class="block text-xs font-semibold text-slate-600 mb-1">Vehículo</label>
+                    <select asp-for="VehiculoId"
+                            class="w-full rounded-xl border border-slate-200 bg-white px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-slate-300">
+                        <option value="">-- Selecciona --</option>
+                        @foreach (var v in Model.Vehiculos)
+                        {
+                            <option value="@v.Id" selected="@(Model.VehiculoId == v.Id)">@v.Text</option>
+                        }
+                    </select>
+                    <span class="text-xs text-rose-600">@Html.ValidationMessageFor(m => m.VehiculoId)</span>
+                </div>
+
+                <div>
+                    <label class="block text-xs font-semibold text-slate-600 mb-1">Tipo de servicio</label>
+                    <select asp-for="TipoServicioId"
+                            class="w-full rounded-xl border border-slate-200 bg-white px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-slate-300">
+                        <option value="">-- Selecciona --</option>
+                        @foreach (var t in Model.TiposServicio)
+                        {
+                            <option value="@t.Id" selected="@(Model.TipoServicioId == t.Id)">@t.Text</option>
+                        }
+                    </select>
+                    <span class="text-xs text-rose-600">@Html.ValidationMessageFor(m => m.TipoServicioId)</span>
+                </div>
+
+                <div>
+                    <label class="block text-xs font-semibold text-slate-600 mb-1">Mecánico (opcional)</label>
+                    <select asp-for="MecanicoId"
+                            class="w-full rounded-xl border border-slate-200 bg-white px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-slate-300">
+                        <option value="">-- No asignar --</option>
+                        @foreach (var m in Model.Mecanicos)
+                        {
+                            <option value="@m.Id" selected="@(Model.MecanicoId == m.Id)">@m.Text</option>
+                        }
+                    </select>
+                </div>
+
+                <div>
+                    <label class="block text-xs font-semibold text-slate-600 mb-1">Bahía (opcional)</label>
+                    <select asp-for="BahiaId"
+                            class="w-full rounded-xl border border-slate-200 bg-white px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-slate-300">
+                        <option value="">-- No asignar --</option>
+                        @foreach (var b in Model.Bahias)
+                        {
+                            <option value="@b.Id" selected="@(Model.BahiaId == b.Id)">@b.Text</option>
+                        }
+                    </select>
+                </div>
+
+                <div>
+                    <label class="block text-xs font-semibold text-slate-600 mb-1">Inicio</label>
+                    <input asp-for="InicioLocal" type="datetime-local"
+                           class="w-full rounded-xl border border-slate-200 bg-white px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-slate-300" />
+                    <span class="text-xs text-rose-600">@Html.ValidationMessageFor(m => m.InicioLocal)</span>
+                </div>
+
+                <div>
+                    <label class="block text-xs font-semibold text-slate-600 mb-1">Duración (min) (opcional)</label>
+                    <input asp-for="DuracionMinutosOverride" type="number" min="15" max="600"
+                           placeholder="Si lo dejas vacío usa la duración base"
+                           class="w-full rounded-xl border border-slate-200 bg-white px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-slate-300" />
+                    <span class="text-xs text-rose-600">@Html.ValidationMessageFor(m => m.DuracionMinutosOverride)</span>
+                </div>
+
+                <div>
+                    <label class="block text-xs font-semibold text-slate-600 mb-1">Prioridad</label>
+                    <select asp-for="Prioridad"
+                            class="w-full rounded-xl border border-slate-200 bg-white px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-slate-300">
+                        @foreach (var p in Model.Prioridades)
+                        {
+                            <option value="@p.Id" selected="@( (int)Model.Prioridad == p.Id )">@p.Text</option>
+                        }
+                    </select>
+                </div>
+
+                <div>
+                    <label class="block text-xs font-semibold text-slate-600 mb-1">Valor estimado</label>
+                    <input asp-for="ValorEstimado" type="number" step="0.01" min="0"
+                           class="w-full rounded-xl border border-slate-200 bg-white px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-slate-300" />
+                </div>
+            </div>
+
+            <div>
+                <label class="block text-xs font-semibold text-slate-600 mb-1">Motivo de ingreso</label>
+                <textarea asp-for="MotivoIngreso" rows="2"
+                          class="w-full rounded-xl border border-slate-200 bg-white px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-slate-300"></textarea>
+            </div>
+
+            <div>
+                <label class="block text-xs font-semibold text-slate-600 mb-1">Notas internas</label>
+                <textarea asp-for="NotasInternas" rows="3"
+                          class="w-full rounded-xl border border-slate-200 bg-white px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-slate-300"></textarea>
+            </div>
+
+            <div class="flex items-center justify-end gap-2 pt-2">
+                <a asp-action="Index"
+                   class="rounded-xl border border-slate-200 bg-white px-4 py-2 text-sm font-semibold hover:bg-slate-50">
+                    Cancelar
+                </a>
+                <button class="rounded-xl bg-slate-900 px-4 py-2 text-sm font-semibold text-white hover:bg-slate-800">
+                    Guardar
+                </button>
+            </div>
+        </form>
+    </div>
+
+    <div class="rounded-2xl border border-slate-200 bg-white shadow-sm p-4 sm:p-6">
+        <div class="text-sm font-semibold">Tips de negocio</div>
+        <div class="mt-2 text-sm text-slate-600 space-y-2">
+            <p>• El sistema valida choques por mecánico/bahía.</p>
+            <p>• Respeta horario del taller y bloqueos.</p>
+            <p>• Registra log de creación automáticamente.</p>
+        </div>
+        <div class="mt-4">
+            <a asp-action="Disponibilidad"
+               class="inline-flex items-center rounded-xl border border-slate-200 bg-white px-4 py-2 text-sm font-semibold hover:bg-slate-50">
+                Ver disponibilidad
+            </a>
+        </div>
+    </div>
+</div>

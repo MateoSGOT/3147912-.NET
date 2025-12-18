@@ -1,0 +1,96 @@
+﻿@model Agenda.ViewModels.Agenda.DisponibilidadVm
+@{
+    ViewData["Title"] = "Disponibilidad";
+    ViewData["Subtitle"] = "Consulta slots disponibles por día, tipo de servicio y recurso.";
+}
+
+<div class="grid grid-cols-1 lg:grid-cols-3 gap-6">
+    <div class="lg:col-span-1 rounded-2xl border border-slate-200 bg-white shadow-sm">
+        <form method="post" class="p-4 sm:p-6 space-y-4">
+            @Html.AntiForgeryToken()
+
+            @if (!string.IsNullOrWhiteSpace(Model.DomainError))
+            {
+                <div class="rounded-2xl border border-rose-200 bg-rose-50 p-4 text-rose-900">
+                    <div class="font-semibold">No se pudo consultar</div>
+                    <div class="text-sm">@Model.DomainError</div>
+                </div>
+            }
+
+            <div>
+                <label class="block text-xs font-semibold text-slate-600 mb-1">Día</label>
+                <input asp-for="DiaLocal" type="date"
+                       class="w-full rounded-xl border border-slate-200 bg-white px-3 py-2 text-sm" />
+            </div>
+
+            <div>
+                <label class="block text-xs font-semibold text-slate-600 mb-1">Tipo de servicio</label>
+                <select asp-for="TipoServicioId" class="w-full rounded-xl border border-slate-200 bg-white px-3 py-2 text-sm">
+                    <option value="">-- Selecciona --</option>
+                    @foreach (var t in Model.TiposServicio)
+                    {
+                        <option value="@t.Id" selected="@(Model.TipoServicioId == t.Id)">@t.Text</option>
+                    }
+                </select>
+                <span class="text-xs text-rose-600">@Html.ValidationMessageFor(m => m.TipoServicioId)</span>
+            </div>
+
+            <div>
+                <label class="block text-xs font-semibold text-slate-600 mb-1">Duración (min) (opcional)</label>
+                <input asp-for="DuracionMinutosOverride" type="number" min="15" max="600"
+                       class="w-full rounded-xl border border-slate-200 bg-white px-3 py-2 text-sm" />
+            </div>
+
+            <div>
+                <label class="block text-xs font-semibold text-slate-600 mb-1">Mecánico (opcional)</label>
+                <select asp-for="MecanicoId" class="w-full rounded-xl border border-slate-200 bg-white px-3 py-2 text-sm">
+                    <option value="">-- Cualquiera --</option>
+                    @foreach (var m in Model.Mecanicos)
+                    {
+                        <option value="@m.Id" selected="@(Model.MecanicoId == m.Id)">@m.Text</option>
+                    }
+                </select>
+            </div>
+
+            <div>
+                <label class="block text-xs font-semibold text-slate-600 mb-1">Bahía (opcional)</label>
+                <select asp-for="BahiaId" class="w-full rounded-xl border border-slate-200 bg-white px-3 py-2 text-sm">
+                    <option value="">-- Cualquiera --</option>
+                    @foreach (var b in Model.Bahias)
+                    {
+                        <option value="@b.Id" selected="@(Model.BahiaId == b.Id)">@b.Text</option>
+                    }
+                </select>
+            </div>
+
+            <button class="w-full rounded-xl bg-slate-900 px-4 py-2 text-sm font-semibold text-white hover:bg-slate-800">
+                Consultar
+            </button>
+        </form>
+    </div>
+
+    <div class="lg:col-span-2 rounded-2xl border border-slate-200 bg-white shadow-sm p-4 sm:p-6">
+        <div class="text-sm font-semibold">Slots disponibles</div>
+
+        @if (Model.Slots.Count == 0)
+        {
+            <div class="mt-3 text-sm text-slate-500">Aún no hay resultados o no hay disponibilidad.</div>
+        }
+        else
+        {
+            <div class="mt-4 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3">
+                @foreach (var s in Model.Slots)
+                {
+                    <a asp-controller="Agenda" asp-action="Create" asp-route-inicio="@s.InicioLocal.Replace(" ", "T")"
+                       class="rounded-2xl border border-slate-200 bg-slate-50 p-4 hover:bg-slate-100">
+                        <div class="text-sm font-bold">@s.InicioLocal</div>
+                        <div class="text-xs text-slate-600 mt-1">hasta @s.FinLocal</div>
+                        <div class="mt-3 inline-flex rounded-xl bg-white border border-slate-200 px-3 py-1 text-xs font-semibold">
+                            Crear cita
+                        </div>
+                    </a>
+                }
+            </div>
+        }
+    </div>
+</div>

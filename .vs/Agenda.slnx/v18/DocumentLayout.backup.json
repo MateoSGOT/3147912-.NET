@@ -1,0 +1,793 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\mateo\\source\\repos\\Agenda\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6BC258E3-DAFD-065E-862D-B7C5B759D9A9}|Agenda\\Agenda.csproj|c:\\users\\mateo\\source\\repos\\agenda\\agenda\\services\\agendaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BC258E3-DAFD-065E-862D-B7C5B759D9A9}|Agenda\\Agenda.csproj|solutionrelative:agenda\\services\\agendaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BC258E3-DAFD-065E-862D-B7C5B759D9A9}|Agenda\\Agenda.csproj|c:\\users\\mateo\\source\\repos\\agenda\\agenda\\data\\agendasettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BC258E3-DAFD-065E-862D-B7C5B759D9A9}|Agenda\\Agenda.csproj|solutionrelative:agenda\\data\\agendasettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BC258E3-DAFD-065E-862D-B7C5B759D9A9}|Agenda\\Agenda.csproj|c:\\users\\mateo\\source\\repos\\agenda\\agenda\\data\\dbinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BC258E3-DAFD-065E-862D-B7C5B759D9A9}|Agenda\\Agenda.csproj|solutionrelative:agenda\\data\\dbinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BC258E3-DAFD-065E-862D-B7C5B759D9A9}|Agenda\\Agenda.csproj|c:\\users\\mateo\\source\\repos\\agenda\\agenda\\controllers\\agendacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BC258E3-DAFD-065E-862D-B7C5B759D9A9}|Agenda\\Agenda.csproj|solutionrelative:agenda\\controllers\\agendacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BC258E3-DAFD-065E-862D-B7C5B759D9A9}|Agenda\\Agenda.csproj|c:\\users\\mateo\\source\\repos\\agenda\\agenda\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BC258E3-DAFD-065E-862D-B7C5B759D9A9}|Agenda\\Agenda.csproj|solutionrelative:agenda\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BC258E3-DAFD-065E-862D-B7C5B759D9A9}|Agenda\\Agenda.csproj|c:\\users\\mateo\\source\\repos\\agenda\\agenda\\views\\agenda\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6BC258E3-DAFD-065E-862D-B7C5B759D9A9}|Agenda\\Agenda.csproj|solutionrelative:agenda\\views\\agenda\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BC258E3-DAFD-065E-862D-B7C5B759D9A9}|Agenda\\Agenda.csproj|c:\\users\\mateo\\source\\repos\\agenda\\agenda\\views\\agenda\\cambiarestado.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6BC258E3-DAFD-065E-862D-B7C5B759D9A9}|Agenda\\Agenda.csproj|solutionrelative:agenda\\views\\agenda\\cambiarestado.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BC258E3-DAFD-065E-862D-B7C5B759D9A9}|Agenda\\Agenda.csproj|c:\\users\\mateo\\source\\repos\\agenda\\agenda\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6BC258E3-DAFD-065E-862D-B7C5B759D9A9}|Agenda\\Agenda.csproj|solutionrelative:agenda\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BC258E3-DAFD-065E-862D-B7C5B759D9A9}|Agenda\\Agenda.csproj|c:\\users\\mateo\\source\\repos\\agenda\\agenda\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6BC258E3-DAFD-065E-862D-B7C5B759D9A9}|Agenda\\Agenda.csproj|solutionrelative:agenda\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BC258E3-DAFD-065E-862D-B7C5B759D9A9}|Agenda\\Agenda.csproj|c:\\users\\mateo\\source\\repos\\agenda\\agenda\\models\\agenda\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BC258E3-DAFD-065E-862D-B7C5B759D9A9}|Agenda\\Agenda.csproj|solutionrelative:agenda\\models\\agenda\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BC258E3-DAFD-065E-862D-B7C5B759D9A9}|Agenda\\Agenda.csproj|c:\\users\\mateo\\source\\repos\\agenda\\agenda\\views\\agenda\\disponibilidad.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6BC258E3-DAFD-065E-862D-B7C5B759D9A9}|Agenda\\Agenda.csproj|solutionrelative:agenda\\views\\agenda\\disponibilidad.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BC258E3-DAFD-065E-862D-B7C5B759D9A9}|Agenda\\Agenda.csproj|c:\\users\\mateo\\source\\repos\\agenda\\agenda\\services\\iagendaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BC258E3-DAFD-065E-862D-B7C5B759D9A9}|Agenda\\Agenda.csproj|solutionrelative:agenda\\services\\iagendaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BC258E3-DAFD-065E-862D-B7C5B759D9A9}|Agenda\\Agenda.csproj|c:\\users\\mateo\\source\\repos\\agenda\\agenda\\views\\agenda\\eliminadas.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6BC258E3-DAFD-065E-862D-B7C5B759D9A9}|Agenda\\Agenda.csproj|solutionrelative:agenda\\views\\agenda\\eliminadas.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BC258E3-DAFD-065E-862D-B7C5B759D9A9}|Agenda\\Agenda.csproj|c:\\users\\mateo\\source\\repos\\agenda\\agenda\\views\\agenda\\eliminar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6BC258E3-DAFD-065E-862D-B7C5B759D9A9}|Agenda\\Agenda.csproj|solutionrelative:agenda\\views\\agenda\\eliminar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BC258E3-DAFD-065E-862D-B7C5B759D9A9}|Agenda\\Agenda.csproj|c:\\users\\mateo\\source\\repos\\agenda\\agenda\\views\\agenda\\reprogramar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6BC258E3-DAFD-065E-862D-B7C5B759D9A9}|Agenda\\Agenda.csproj|solutionrelative:agenda\\views\\agenda\\reprogramar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BC258E3-DAFD-065E-862D-B7C5B759D9A9}|Agenda\\Agenda.csproj|c:\\users\\mateo\\source\\repos\\agenda\\agenda\\views\\agenda\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6BC258E3-DAFD-065E-862D-B7C5B759D9A9}|Agenda\\Agenda.csproj|solutionrelative:agenda\\views\\agenda\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BC258E3-DAFD-065E-862D-B7C5B759D9A9}|Agenda\\Agenda.csproj|c:\\users\\mateo\\source\\repos\\agenda\\agenda\\views\\agenda\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6BC258E3-DAFD-065E-862D-B7C5B759D9A9}|Agenda\\Agenda.csproj|solutionrelative:agenda\\views\\agenda\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BC258E3-DAFD-065E-862D-B7C5B759D9A9}|Agenda\\Agenda.csproj|c:\\users\\mateo\\source\\repos\\agenda\\agenda\\views\\agenda\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6BC258E3-DAFD-065E-862D-B7C5B759D9A9}|Agenda\\Agenda.csproj|solutionrelative:agenda\\views\\agenda\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BC258E3-DAFD-065E-862D-B7C5B759D9A9}|Agenda\\Agenda.csproj|c:\\users\\mateo\\source\\repos\\agenda\\agenda\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6BC258E3-DAFD-065E-862D-B7C5B759D9A9}|Agenda\\Agenda.csproj|solutionrelative:agenda\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BC258E3-DAFD-065E-862D-B7C5B759D9A9}|Agenda\\Agenda.csproj|c:\\users\\mateo\\source\\repos\\agenda\\agenda\\controllers\\_controllerhelpers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BC258E3-DAFD-065E-862D-B7C5B759D9A9}|Agenda\\Agenda.csproj|solutionrelative:agenda\\controllers\\_controllerhelpers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BC258E3-DAFD-065E-862D-B7C5B759D9A9}|Agenda\\Agenda.csproj|c:\\users\\mateo\\source\\repos\\agenda\\agenda\\viewmodels\\agenda\\rowversionhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BC258E3-DAFD-065E-862D-B7C5B759D9A9}|Agenda\\Agenda.csproj|solutionrelative:agenda\\viewmodels\\agenda\\rowversionhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BC258E3-DAFD-065E-862D-B7C5B759D9A9}|Agenda\\Agenda.csproj|c:\\users\\mateo\\source\\repos\\agenda\\agenda\\viewmodels\\agenda\\disponibilidadvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BC258E3-DAFD-065E-862D-B7C5B759D9A9}|Agenda\\Agenda.csproj|solutionrelative:agenda\\viewmodels\\agenda\\disponibilidadvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BC258E3-DAFD-065E-862D-B7C5B759D9A9}|Agenda\\Agenda.csproj|c:\\users\\mateo\\source\\repos\\agenda\\agenda\\viewmodels\\agenda\\citadetallevm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BC258E3-DAFD-065E-862D-B7C5B759D9A9}|Agenda\\Agenda.csproj|solutionrelative:agenda\\viewmodels\\agenda\\citadetallevm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BC258E3-DAFD-065E-862D-B7C5B759D9A9}|Agenda\\Agenda.csproj|c:\\users\\mateo\\source\\repos\\agenda\\agenda\\viewmodels\\agenda\\eliminarcitavm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BC258E3-DAFD-065E-862D-B7C5B759D9A9}|Agenda\\Agenda.csproj|solutionrelative:agenda\\viewmodels\\agenda\\eliminarcitavm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BC258E3-DAFD-065E-862D-B7C5B759D9A9}|Agenda\\Agenda.csproj|c:\\users\\mateo\\source\\repos\\agenda\\agenda\\viewmodels\\agenda\\cambiarestadovm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BC258E3-DAFD-065E-862D-B7C5B759D9A9}|Agenda\\Agenda.csproj|solutionrelative:agenda\\viewmodels\\agenda\\cambiarestadovm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BC258E3-DAFD-065E-862D-B7C5B759D9A9}|Agenda\\Agenda.csproj|c:\\users\\mateo\\source\\repos\\agenda\\agenda\\viewmodels\\agenda\\reprogramarvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BC258E3-DAFD-065E-862D-B7C5B759D9A9}|Agenda\\Agenda.csproj|solutionrelative:agenda\\viewmodels\\agenda\\reprogramarvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BC258E3-DAFD-065E-862D-B7C5B759D9A9}|Agenda\\Agenda.csproj|c:\\users\\mateo\\source\\repos\\agenda\\agenda\\viewmodels\\agenda\\citaeditvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BC258E3-DAFD-065E-862D-B7C5B759D9A9}|Agenda\\Agenda.csproj|solutionrelative:agenda\\viewmodels\\agenda\\citaeditvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BC258E3-DAFD-065E-862D-B7C5B759D9A9}|Agenda\\Agenda.csproj|c:\\users\\mateo\\source\\repos\\agenda\\agenda\\viewmodels\\agenda\\citacreatevm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BC258E3-DAFD-065E-862D-B7C5B759D9A9}|Agenda\\Agenda.csproj|solutionrelative:agenda\\viewmodels\\agenda\\citacreatevm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BC258E3-DAFD-065E-862D-B7C5B759D9A9}|Agenda\\Agenda.csproj|c:\\users\\mateo\\source\\repos\\agenda\\agenda\\viewmodels\\agenda\\citaformvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BC258E3-DAFD-065E-862D-B7C5B759D9A9}|Agenda\\Agenda.csproj|solutionrelative:agenda\\viewmodels\\agenda\\citaformvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BC258E3-DAFD-065E-862D-B7C5B759D9A9}|Agenda\\Agenda.csproj|c:\\users\\mateo\\source\\repos\\agenda\\agenda\\viewmodels\\agenda\\agendaindexvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BC258E3-DAFD-065E-862D-B7C5B759D9A9}|Agenda\\Agenda.csproj|solutionrelative:agenda\\viewmodels\\agenda\\agendaindexvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BC258E3-DAFD-065E-862D-B7C5B759D9A9}|Agenda\\Agenda.csproj|c:\\users\\mateo\\source\\repos\\agenda\\agenda\\viewmodels\\agenda\\agendaconstants.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BC258E3-DAFD-065E-862D-B7C5B759D9A9}|Agenda\\Agenda.csproj|solutionrelative:agenda\\viewmodels\\agenda\\agendaconstants.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BC258E3-DAFD-065E-862D-B7C5B759D9A9}|Agenda\\Agenda.csproj|c:\\users\\mateo\\source\\repos\\agenda\\agenda\\viewmodels\\agenda\\selectoptionvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BC258E3-DAFD-065E-862D-B7C5B759D9A9}|Agenda\\Agenda.csproj|solutionrelative:agenda\\viewmodels\\agenda\\selectoptionvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BC258E3-DAFD-065E-862D-B7C5B759D9A9}|Agenda\\Agenda.csproj|c:\\users\\mateo\\source\\repos\\agenda\\agenda\\services\\agendadtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BC258E3-DAFD-065E-862D-B7C5B759D9A9}|Agenda\\Agenda.csproj|solutionrelative:agenda\\services\\agendadtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BC258E3-DAFD-065E-862D-B7C5B759D9A9}|Agenda\\Agenda.csproj|c:\\users\\mateo\\source\\repos\\agenda\\agenda\\services\\serviceresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BC258E3-DAFD-065E-862D-B7C5B759D9A9}|Agenda\\Agenda.csproj|solutionrelative:agenda\\services\\serviceresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BC258E3-DAFD-065E-862D-B7C5B759D9A9}|Agenda\\Agenda.csproj|c:\\users\\mateo\\source\\repos\\agenda\\agenda\\migrations\\20251212040430_inicialdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BC258E3-DAFD-065E-862D-B7C5B759D9A9}|Agenda\\Agenda.csproj|solutionrelative:agenda\\migrations\\20251212040430_inicialdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BC258E3-DAFD-065E-862D-B7C5B759D9A9}|Agenda\\Agenda.csproj|c:\\users\\mateo\\source\\repos\\agenda\\agenda\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{6BC258E3-DAFD-065E-862D-B7C5B759D9A9}|Agenda\\Agenda.csproj|solutionrelative:agenda\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BC258E3-DAFD-065E-862D-B7C5B759D9A9}|Agenda\\Agenda.csproj|c:\\users\\mateo\\source\\repos\\agenda\\agenda\\data\\agendadbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BC258E3-DAFD-065E-862D-B7C5B759D9A9}|Agenda\\Agenda.csproj|solutionrelative:agenda\\data\\agendadbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BC258E3-DAFD-065E-862D-B7C5B759D9A9}|Agenda\\Agenda.csproj|c:\\users\\mateo\\source\\repos\\agenda\\agenda\\models\\agenda\\citaservicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BC258E3-DAFD-065E-862D-B7C5B759D9A9}|Agenda\\Agenda.csproj|solutionrelative:agenda\\models\\agenda\\citaservicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BC258E3-DAFD-065E-862D-B7C5B759D9A9}|Agenda\\Agenda.csproj|c:\\users\\mateo\\source\\repos\\agenda\\agenda\\models\\agenda\\citalog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BC258E3-DAFD-065E-862D-B7C5B759D9A9}|Agenda\\Agenda.csproj|solutionrelative:agenda\\models\\agenda\\citalog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BC258E3-DAFD-065E-862D-B7C5B759D9A9}|Agenda\\Agenda.csproj|c:\\users\\mateo\\source\\repos\\agenda\\agenda\\models\\agenda\\checkincita.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BC258E3-DAFD-065E-862D-B7C5B759D9A9}|Agenda\\Agenda.csproj|solutionrelative:agenda\\models\\agenda\\checkincita.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BC258E3-DAFD-065E-862D-B7C5B759D9A9}|Agenda\\Agenda.csproj|c:\\users\\mateo\\source\\repos\\agenda\\agenda\\models\\agenda\\bloqueoagenda.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BC258E3-DAFD-065E-862D-B7C5B759D9A9}|Agenda\\Agenda.csproj|solutionrelative:agenda\\models\\agenda\\bloqueoagenda.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BC258E3-DAFD-065E-862D-B7C5B759D9A9}|Agenda\\Agenda.csproj|c:\\users\\mateo\\source\\repos\\agenda\\agenda\\models\\agenda\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BC258E3-DAFD-065E-862D-B7C5B759D9A9}|Agenda\\Agenda.csproj|solutionrelative:agenda\\models\\agenda\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BC258E3-DAFD-065E-862D-B7C5B759D9A9}|Agenda\\Agenda.csproj|c:\\users\\mateo\\source\\repos\\agenda\\agenda\\models\\agenda\\bahia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BC258E3-DAFD-065E-862D-B7C5B759D9A9}|Agenda\\Agenda.csproj|solutionrelative:agenda\\models\\agenda\\bahia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BC258E3-DAFD-065E-862D-B7C5B759D9A9}|Agenda\\Agenda.csproj|c:\\users\\mateo\\source\\repos\\agenda\\agenda\\models\\agenda\\enumsagenda.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BC258E3-DAFD-065E-862D-B7C5B759D9A9}|Agenda\\Agenda.csproj|solutionrelative:agenda\\models\\agenda\\enumsagenda.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BC258E3-DAFD-065E-862D-B7C5B759D9A9}|Agenda\\Agenda.csproj|c:\\users\\mateo\\source\\repos\\agenda\\agenda\\models\\agenda\\horariotaller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BC258E3-DAFD-065E-862D-B7C5B759D9A9}|Agenda\\Agenda.csproj|solutionrelative:agenda\\models\\agenda\\horariotaller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BC258E3-DAFD-065E-862D-B7C5B759D9A9}|Agenda\\Agenda.csproj|c:\\users\\mateo\\source\\repos\\agenda\\agenda\\models\\agenda\\mecanico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BC258E3-DAFD-065E-862D-B7C5B759D9A9}|Agenda\\Agenda.csproj|solutionrelative:agenda\\models\\agenda\\mecanico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BC258E3-DAFD-065E-862D-B7C5B759D9A9}|Agenda\\Agenda.csproj|c:\\users\\mateo\\source\\repos\\agenda\\agenda\\models\\agenda\\tiposervicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BC258E3-DAFD-065E-862D-B7C5B759D9A9}|Agenda\\Agenda.csproj|solutionrelative:agenda\\models\\agenda\\tiposervicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BC258E3-DAFD-065E-862D-B7C5B759D9A9}|Agenda\\Agenda.csproj|c:\\users\\mateo\\source\\repos\\agenda\\agenda\\models\\agenda\\vehiculo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BC258E3-DAFD-065E-862D-B7C5B759D9A9}|Agenda\\Agenda.csproj|solutionrelative:agenda\\models\\agenda\\vehiculo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AgendaSettings.cs",
+              "DocumentMoniker": "C:\\Users\\mateo\\source\\repos\\Agenda\\Agenda\\Data\\AgendaSettings.cs",
+              "RelativeDocumentMoniker": "Agenda\\Data\\AgendaSettings.cs",
+              "ToolTip": "C:\\Users\\mateo\\source\\repos\\Agenda\\Agenda\\Data\\AgendaSettings.cs",
+              "RelativeToolTip": "Agenda\\Data\\AgendaSettings.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-12T04:08:45.684Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DbInitializer.cs",
+              "DocumentMoniker": "C:\\Users\\mateo\\source\\repos\\Agenda\\Agenda\\Data\\DbInitializer.cs",
+              "RelativeDocumentMoniker": "Agenda\\Data\\DbInitializer.cs",
+              "ToolTip": "C:\\Users\\mateo\\source\\repos\\Agenda\\Agenda\\Data\\DbInitializer.cs",
+              "RelativeToolTip": "Agenda\\Data\\DbInitializer.cs",
+              "ViewState": "AgIAAJEAAAAAAAAAAAAAwKIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-12T04:09:02.765Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AgendaController.cs",
+              "DocumentMoniker": "C:\\Users\\mateo\\source\\repos\\Agenda\\Agenda\\Controllers\\AgendaController.cs",
+              "RelativeDocumentMoniker": "Agenda\\Controllers\\AgendaController.cs",
+              "ToolTip": "C:\\Users\\mateo\\source\\repos\\Agenda\\Agenda\\Controllers\\AgendaController.cs",
+              "RelativeToolTip": "Agenda\\Controllers\\AgendaController.cs",
+              "ViewState": "AgIAAP0CAAAAAAAAAAAuwA4DAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-12T04:31:35.47Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\mateo\\source\\repos\\Agenda\\Agenda\\Program.cs",
+              "RelativeDocumentMoniker": "Agenda\\Program.cs",
+              "ToolTip": "C:\\Users\\mateo\\source\\repos\\Agenda\\Agenda\\Program.cs",
+              "RelativeToolTip": "Agenda\\Program.cs",
+              "ViewState": "AgIAAEUAAAAAAAAAAAAAwFYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-12T03:58:37.625Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\mateo\\source\\repos\\Agenda\\Agenda\\Views\\Agenda\\Create.cshtml",
+              "RelativeDocumentMoniker": "Agenda\\Views\\Agenda\\Create.cshtml",
+              "ToolTip": "C:\\Users\\mateo\\source\\repos\\Agenda\\Agenda\\Views\\Agenda\\Create.cshtml",
+              "RelativeToolTip": "Agenda\\Views\\Agenda\\Create.cshtml",
+              "ViewState": "AgIAAH0AAAAAAAAAAAAAwI4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-12T04:48:45.333Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AgendaService.cs",
+              "DocumentMoniker": "C:\\Users\\mateo\\source\\repos\\Agenda\\Agenda\\Services\\AgendaService.cs",
+              "RelativeDocumentMoniker": "Agenda\\Services\\AgendaService.cs",
+              "ToolTip": "C:\\Users\\mateo\\source\\repos\\Agenda\\Agenda\\Services\\AgendaService.cs",
+              "RelativeToolTip": "Agenda\\Services\\AgendaService.cs",
+              "ViewState": "AgIAADICAAAAAAAAAAAmwEICAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-12T04:16:00.197Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CambiarEstado.cshtml",
+              "DocumentMoniker": "C:\\Users\\mateo\\source\\repos\\Agenda\\Agenda\\Views\\Agenda\\CambiarEstado.cshtml",
+              "RelativeDocumentMoniker": "Agenda\\Views\\Agenda\\CambiarEstado.cshtml",
+              "ToolTip": "C:\\Users\\mateo\\source\\repos\\Agenda\\Agenda\\Views\\Agenda\\CambiarEstado.cshtml",
+              "RelativeToolTip": "Agenda\\Views\\Agenda\\CambiarEstado.cshtml",
+              "ViewState": "AgIAADkAAAAAAAAAAAAAADkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-12T04:49:57.826Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\mateo\\source\\repos\\Agenda\\Agenda\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "Agenda\\Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\mateo\\source\\repos\\Agenda\\Agenda\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "Agenda\\Views\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-12T04:42:15.828Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\mateo\\source\\repos\\Agenda\\Agenda\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Agenda\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\mateo\\source\\repos\\Agenda\\Agenda\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Agenda\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAEQBAAAAAAAAAAAAwFUBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-12T04:41:32.908Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Cliente.cs",
+              "DocumentMoniker": "C:\\Users\\mateo\\source\\repos\\Agenda\\Agenda\\Models\\Agenda\\Cliente.cs",
+              "RelativeDocumentMoniker": "Agenda\\Models\\Agenda\\Cliente.cs",
+              "ToolTip": "C:\\Users\\mateo\\source\\repos\\Agenda\\Agenda\\Models\\Agenda\\Cliente.cs",
+              "RelativeToolTip": "Agenda\\Models\\Agenda\\Cliente.cs",
+              "ViewState": "AgIAAAEAAAACAAAAAAAgwBUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-12T03:52:12.704Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Disponibilidad.cshtml",
+              "DocumentMoniker": "C:\\Users\\mateo\\source\\repos\\Agenda\\Agenda\\Views\\Agenda\\Disponibilidad.cshtml",
+              "RelativeDocumentMoniker": "Agenda\\Views\\Agenda\\Disponibilidad.cshtml",
+              "ToolTip": "C:\\Users\\mateo\\source\\repos\\Agenda\\Agenda\\Views\\Agenda\\Disponibilidad.cshtml",
+              "RelativeToolTip": "Agenda\\Views\\Agenda\\Disponibilidad.cshtml",
+              "ViewState": "AgIAAE8AAAAAAAAAAAAAwGAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-12T04:51:42.163Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "IAgendaService.cs",
+              "DocumentMoniker": "C:\\Users\\mateo\\source\\repos\\Agenda\\Agenda\\Services\\IAgendaService.cs",
+              "RelativeDocumentMoniker": "Agenda\\Services\\IAgendaService.cs",
+              "ToolTip": "C:\\Users\\mateo\\source\\repos\\Agenda\\Agenda\\Services\\IAgendaService.cs",
+              "RelativeToolTip": "Agenda\\Services\\IAgendaService.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAwwBUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-12T04:15:44.068Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Eliminadas.cshtml",
+              "DocumentMoniker": "C:\\Users\\mateo\\source\\repos\\Agenda\\Agenda\\Views\\Agenda\\Eliminadas.cshtml",
+              "RelativeDocumentMoniker": "Agenda\\Views\\Agenda\\Eliminadas.cshtml",
+              "ToolTip": "C:\\Users\\mateo\\source\\repos\\Agenda\\Agenda\\Views\\Agenda\\Eliminadas.cshtml",
+              "RelativeToolTip": "Agenda\\Views\\Agenda\\Eliminadas.cshtml",
+              "ViewState": "AgIAADcAAAAAAAAAAAAAwEgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-12T04:50:31.608Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Eliminar.cshtml",
+              "DocumentMoniker": "C:\\Users\\mateo\\source\\repos\\Agenda\\Agenda\\Views\\Agenda\\Eliminar.cshtml",
+              "RelativeDocumentMoniker": "Agenda\\Views\\Agenda\\Eliminar.cshtml",
+              "ToolTip": "C:\\Users\\mateo\\source\\repos\\Agenda\\Agenda\\Views\\Agenda\\Eliminar.cshtml",
+              "RelativeToolTip": "Agenda\\Views\\Agenda\\Eliminar.cshtml",
+              "ViewState": "AgIAABoAAAAAAAAAAAAAwCsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-12T04:50:12.602Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Reprogramar.cshtml",
+              "DocumentMoniker": "C:\\Users\\mateo\\source\\repos\\Agenda\\Agenda\\Views\\Agenda\\Reprogramar.cshtml",
+              "RelativeDocumentMoniker": "Agenda\\Views\\Agenda\\Reprogramar.cshtml",
+              "ToolTip": "C:\\Users\\mateo\\source\\repos\\Agenda\\Agenda\\Views\\Agenda\\Reprogramar.cshtml",
+              "RelativeToolTip": "Agenda\\Views\\Agenda\\Reprogramar.cshtml",
+              "ViewState": "AgIAADoAAAAAAAAAAAAAwEsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-12T04:49:42.358Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\mateo\\source\\repos\\Agenda\\Agenda\\Views\\Agenda\\Details.cshtml",
+              "RelativeDocumentMoniker": "Agenda\\Views\\Agenda\\Details.cshtml",
+              "ToolTip": "C:\\Users\\mateo\\source\\repos\\Agenda\\Agenda\\Views\\Agenda\\Details.cshtml",
+              "RelativeToolTip": "Agenda\\Views\\Agenda\\Details.cshtml",
+              "ViewState": "AgIAALAAAAAAAAAAAAAAwMEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-12T04:49:23.182Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\mateo\\source\\repos\\Agenda\\Agenda\\Views\\Agenda\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Agenda\\Views\\Agenda\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\mateo\\source\\repos\\Agenda\\Agenda\\Views\\Agenda\\Edit.cshtml",
+              "RelativeToolTip": "Agenda\\Views\\Agenda\\Edit.cshtml",
+              "ViewState": "AgIAAHQAAAAAAAAAAAAAwIUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-12T04:49:02.727Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\mateo\\source\\repos\\Agenda\\Agenda\\Views\\Agenda\\Index.cshtml",
+              "RelativeDocumentMoniker": "Agenda\\Views\\Agenda\\Index.cshtml",
+              "ToolTip": "C:\\Users\\mateo\\source\\repos\\Agenda\\Agenda\\Views\\Agenda\\Index.cshtml",
+              "RelativeToolTip": "Agenda\\Views\\Agenda\\Index.cshtml",
+              "ViewState": "AgIAALMAAAAAAAAAAAAAwMQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-12T04:48:26.282Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Users\\mateo\\source\\repos\\Agenda\\Agenda\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "Agenda\\Views\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Users\\mateo\\source\\repos\\Agenda\\Agenda\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "Agenda\\Views\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-12T04:43:01.012Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "_ControllerHelpers.cs",
+              "DocumentMoniker": "C:\\Users\\mateo\\source\\repos\\Agenda\\Agenda\\Controllers\\_ControllerHelpers.cs",
+              "RelativeDocumentMoniker": "Agenda\\Controllers\\_ControllerHelpers.cs",
+              "ToolTip": "C:\\Users\\mateo\\source\\repos\\Agenda\\Agenda\\Controllers\\_ControllerHelpers.cs",
+              "RelativeToolTip": "Agenda\\Controllers\\_ControllerHelpers.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-12T04:31:09.572Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "RowVersionHelper.cs",
+              "DocumentMoniker": "C:\\Users\\mateo\\source\\repos\\Agenda\\Agenda\\ViewModels\\Agenda\\RowVersionHelper.cs",
+              "RelativeDocumentMoniker": "Agenda\\ViewModels\\Agenda\\RowVersionHelper.cs",
+              "ToolTip": "C:\\Users\\mateo\\source\\repos\\Agenda\\Agenda\\ViewModels\\Agenda\\RowVersionHelper.cs",
+              "RelativeToolTip": "Agenda\\ViewModels\\Agenda\\RowVersionHelper.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-12T04:28:05.63Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "DisponibilidadVm.cs",
+              "DocumentMoniker": "C:\\Users\\mateo\\source\\repos\\Agenda\\Agenda\\ViewModels\\Agenda\\DisponibilidadVm.cs",
+              "RelativeDocumentMoniker": "Agenda\\ViewModels\\Agenda\\DisponibilidadVm.cs",
+              "ToolTip": "C:\\Users\\mateo\\source\\repos\\Agenda\\Agenda\\ViewModels\\Agenda\\DisponibilidadVm.cs",
+              "RelativeToolTip": "Agenda\\ViewModels\\Agenda\\DisponibilidadVm.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAuwCkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-12T04:27:48.885Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "CitaDetalleVm.cs",
+              "DocumentMoniker": "C:\\Users\\mateo\\source\\repos\\Agenda\\Agenda\\ViewModels\\Agenda\\CitaDetalleVm.cs",
+              "RelativeDocumentMoniker": "Agenda\\ViewModels\\Agenda\\CitaDetalleVm.cs",
+              "ToolTip": "C:\\Users\\mateo\\source\\repos\\Agenda\\Agenda\\ViewModels\\Agenda\\CitaDetalleVm.cs",
+              "RelativeToolTip": "Agenda\\ViewModels\\Agenda\\CitaDetalleVm.cs",
+              "ViewState": "AgIAACoAAAAAAAAAAAAAwDsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-12T04:27:34.191Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "EliminarCitaVm.cs",
+              "DocumentMoniker": "C:\\Users\\mateo\\source\\repos\\Agenda\\Agenda\\ViewModels\\Agenda\\EliminarCitaVm.cs",
+              "RelativeDocumentMoniker": "Agenda\\ViewModels\\Agenda\\EliminarCitaVm.cs",
+              "ToolTip": "C:\\Users\\mateo\\source\\repos\\Agenda\\Agenda\\ViewModels\\Agenda\\EliminarCitaVm.cs",
+              "RelativeToolTip": "Agenda\\ViewModels\\Agenda\\EliminarCitaVm.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAuwBUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-12T04:27:21.895Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "CambiarEstadoVm.cs",
+              "DocumentMoniker": "C:\\Users\\mateo\\source\\repos\\Agenda\\Agenda\\ViewModels\\Agenda\\CambiarEstadoVm.cs",
+              "RelativeDocumentMoniker": "Agenda\\ViewModels\\Agenda\\CambiarEstadoVm.cs",
+              "ToolTip": "C:\\Users\\mateo\\source\\repos\\Agenda\\Agenda\\ViewModels\\Agenda\\CambiarEstadoVm.cs",
+              "RelativeToolTip": "Agenda\\ViewModels\\Agenda\\CambiarEstadoVm.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAAwCEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-12T04:27:08.781Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "ReprogramarVm.cs",
+              "DocumentMoniker": "C:\\Users\\mateo\\source\\repos\\Agenda\\Agenda\\ViewModels\\Agenda\\ReprogramarVm.cs",
+              "RelativeDocumentMoniker": "Agenda\\ViewModels\\Agenda\\ReprogramarVm.cs",
+              "ToolTip": "C:\\Users\\mateo\\source\\repos\\Agenda\\Agenda\\ViewModels\\Agenda\\ReprogramarVm.cs",
+              "RelativeToolTip": "Agenda\\ViewModels\\Agenda\\ReprogramarVm.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAAwCgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-12T04:26:55.147Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "CitaEditVm.cs",
+              "DocumentMoniker": "C:\\Users\\mateo\\source\\repos\\Agenda\\Agenda\\ViewModels\\Agenda\\CitaEditVm.cs",
+              "RelativeDocumentMoniker": "Agenda\\ViewModels\\Agenda\\CitaEditVm.cs",
+              "ToolTip": "C:\\Users\\mateo\\source\\repos\\Agenda\\Agenda\\ViewModels\\Agenda\\CitaEditVm.cs",
+              "RelativeToolTip": "Agenda\\ViewModels\\Agenda\\CitaEditVm.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAuwBYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-12T04:26:37.622Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "CitaCreateVm.cs",
+              "DocumentMoniker": "C:\\Users\\mateo\\source\\repos\\Agenda\\Agenda\\ViewModels\\Agenda\\CitaCreateVm.cs",
+              "RelativeDocumentMoniker": "Agenda\\ViewModels\\Agenda\\CitaCreateVm.cs",
+              "ToolTip": "C:\\Users\\mateo\\source\\repos\\Agenda\\Agenda\\ViewModels\\Agenda\\CitaCreateVm.cs",
+              "RelativeToolTip": "Agenda\\ViewModels\\Agenda\\CitaCreateVm.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-12T04:26:23.378Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "CitaFormVm.cs",
+              "DocumentMoniker": "C:\\Users\\mateo\\source\\repos\\Agenda\\Agenda\\ViewModels\\Agenda\\CitaFormVm.cs",
+              "RelativeDocumentMoniker": "Agenda\\ViewModels\\Agenda\\CitaFormVm.cs",
+              "ToolTip": "C:\\Users\\mateo\\source\\repos\\Agenda\\Agenda\\ViewModels\\Agenda\\CitaFormVm.cs",
+              "RelativeToolTip": "Agenda\\ViewModels\\Agenda\\CitaFormVm.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAAAAwDkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-12T04:26:07.866Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "AgendaIndexVm.cs",
+              "DocumentMoniker": "C:\\Users\\mateo\\source\\repos\\Agenda\\Agenda\\ViewModels\\Agenda\\AgendaIndexVm.cs",
+              "RelativeDocumentMoniker": "Agenda\\ViewModels\\Agenda\\AgendaIndexVm.cs",
+              "ToolTip": "C:\\Users\\mateo\\source\\repos\\Agenda\\Agenda\\ViewModels\\Agenda\\AgendaIndexVm.cs",
+              "RelativeToolTip": "Agenda\\ViewModels\\Agenda\\AgendaIndexVm.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAAwDAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-12T04:25:54.39Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "AgendaConstants.cs",
+              "DocumentMoniker": "C:\\Users\\mateo\\source\\repos\\Agenda\\Agenda\\ViewModels\\Agenda\\AgendaConstants.cs",
+              "RelativeDocumentMoniker": "Agenda\\ViewModels\\Agenda\\AgendaConstants.cs",
+              "ToolTip": "C:\\Users\\mateo\\source\\repos\\Agenda\\Agenda\\ViewModels\\Agenda\\AgendaConstants.cs",
+              "RelativeToolTip": "Agenda\\ViewModels\\Agenda\\AgendaConstants.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-12T04:25:36.128Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "SelectOptionVm.cs",
+              "DocumentMoniker": "C:\\Users\\mateo\\source\\repos\\Agenda\\Agenda\\ViewModels\\Agenda\\SelectOptionVm.cs",
+              "RelativeDocumentMoniker": "Agenda\\ViewModels\\Agenda\\SelectOptionVm.cs",
+              "ToolTip": "C:\\Users\\mateo\\source\\repos\\Agenda\\Agenda\\ViewModels\\Agenda\\SelectOptionVm.cs",
+              "RelativeToolTip": "Agenda\\ViewModels\\Agenda\\SelectOptionVm.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-12T04:25:20.978Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "AgendaDtos.cs",
+              "DocumentMoniker": "C:\\Users\\mateo\\source\\repos\\Agenda\\Agenda\\Services\\AgendaDtos.cs",
+              "RelativeDocumentMoniker": "Agenda\\Services\\AgendaDtos.cs",
+              "ToolTip": "C:\\Users\\mateo\\source\\repos\\Agenda\\Agenda\\Services\\AgendaDtos.cs",
+              "RelativeToolTip": "Agenda\\Services\\AgendaDtos.cs",
+              "ViewState": "AgIAADAAAAAAAAAAAAAAwEEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-12T04:15:28.45Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "ServiceResult.cs",
+              "DocumentMoniker": "C:\\Users\\mateo\\source\\repos\\Agenda\\Agenda\\Services\\ServiceResult.cs",
+              "RelativeDocumentMoniker": "Agenda\\Services\\ServiceResult.cs",
+              "ToolTip": "C:\\Users\\mateo\\source\\repos\\Agenda\\Agenda\\Services\\ServiceResult.cs",
+              "RelativeToolTip": "Agenda\\Services\\ServiceResult.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAuwBcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-12T04:15:13.216Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "20251212040430_inicialDb.cs",
+              "DocumentMoniker": "C:\\Users\\mateo\\source\\repos\\Agenda\\Agenda\\Migrations\\20251212040430_inicialDb.cs",
+              "RelativeDocumentMoniker": "Agenda\\Migrations\\20251212040430_inicialDb.cs",
+              "ToolTip": "C:\\Users\\mateo\\source\\repos\\Agenda\\Agenda\\Migrations\\20251212040430_inicialDb.cs",
+              "RelativeToolTip": "Agenda\\Migrations\\20251212040430_inicialDb.cs",
+              "ViewState": "AgIAAIAAAAAAZ2ZmZmYjwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-12T04:04:31.187Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\mateo\\source\\repos\\Agenda\\Agenda\\appsettings.json",
+              "RelativeDocumentMoniker": "Agenda\\appsettings.json",
+              "ToolTip": "C:\\Users\\mateo\\source\\repos\\Agenda\\Agenda\\appsettings.json",
+              "RelativeToolTip": "Agenda\\appsettings.json",
+              "ViewState": "AgIAAAkAAADA//////8dwBMAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-12-12T04:00:05.961Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "AgendaDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\mateo\\source\\repos\\Agenda\\Agenda\\Data\\AgendaDbContext.cs",
+              "RelativeDocumentMoniker": "Agenda\\Data\\AgendaDbContext.cs",
+              "ToolTip": "C:\\Users\\mateo\\source\\repos\\Agenda\\Agenda\\Data\\AgendaDbContext.cs",
+              "RelativeToolTip": "Agenda\\Data\\AgendaDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAMwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-12T03:58:12.014Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "CitaServicio.cs",
+              "DocumentMoniker": "C:\\Users\\mateo\\source\\repos\\Agenda\\Agenda\\Models\\Agenda\\CitaServicio.cs",
+              "RelativeDocumentMoniker": "Agenda\\Models\\Agenda\\CitaServicio.cs",
+              "ToolTip": "C:\\Users\\mateo\\source\\repos\\Agenda\\Agenda\\Models\\Agenda\\CitaServicio.cs",
+              "RelativeToolTip": "Agenda\\Models\\Agenda\\CitaServicio.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-12T03:54:39.308Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "CitaLog.cs",
+              "DocumentMoniker": "C:\\Users\\mateo\\source\\repos\\Agenda\\Agenda\\Models\\Agenda\\CitaLog.cs",
+              "RelativeDocumentMoniker": "Agenda\\Models\\Agenda\\CitaLog.cs",
+              "ToolTip": "C:\\Users\\mateo\\source\\repos\\Agenda\\Agenda\\Models\\Agenda\\CitaLog.cs",
+              "RelativeToolTip": "Agenda\\Models\\Agenda\\CitaLog.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-12T03:54:57.519Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "CheckInCita.cs",
+              "DocumentMoniker": "C:\\Users\\mateo\\source\\repos\\Agenda\\Agenda\\Models\\Agenda\\CheckInCita.cs",
+              "RelativeDocumentMoniker": "Agenda\\Models\\Agenda\\CheckInCita.cs",
+              "ToolTip": "C:\\Users\\mateo\\source\\repos\\Agenda\\Agenda\\Models\\Agenda\\CheckInCita.cs",
+              "RelativeToolTip": "Agenda\\Models\\Agenda\\CheckInCita.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-12T03:55:13.013Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "BloqueoAgenda.cs",
+              "DocumentMoniker": "C:\\Users\\mateo\\source\\repos\\Agenda\\Agenda\\Models\\Agenda\\BloqueoAgenda.cs",
+              "RelativeDocumentMoniker": "Agenda\\Models\\Agenda\\BloqueoAgenda.cs",
+              "ToolTip": "C:\\Users\\mateo\\source\\repos\\Agenda\\Agenda\\Models\\Agenda\\BloqueoAgenda.cs",
+              "RelativeToolTip": "Agenda\\Models\\Agenda\\BloqueoAgenda.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-12T03:54:21.393Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "BaseEntity.cs",
+              "DocumentMoniker": "C:\\Users\\mateo\\source\\repos\\Agenda\\Agenda\\Models\\Agenda\\BaseEntity.cs",
+              "RelativeDocumentMoniker": "Agenda\\Models\\Agenda\\BaseEntity.cs",
+              "ToolTip": "C:\\Users\\mateo\\source\\repos\\Agenda\\Agenda\\Models\\Agenda\\BaseEntity.cs",
+              "RelativeToolTip": "Agenda\\Models\\Agenda\\BaseEntity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-12T03:51:40.647Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "Bahia.cs",
+              "DocumentMoniker": "C:\\Users\\mateo\\source\\repos\\Agenda\\Agenda\\Models\\Agenda\\Bahia.cs",
+              "RelativeDocumentMoniker": "Agenda\\Models\\Agenda\\Bahia.cs",
+              "ToolTip": "C:\\Users\\mateo\\source\\repos\\Agenda\\Agenda\\Models\\Agenda\\Bahia.cs",
+              "RelativeToolTip": "Agenda\\Models\\Agenda\\Bahia.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-12T03:53:18.171Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "EnumsAgenda.cs",
+              "DocumentMoniker": "C:\\Users\\mateo\\source\\repos\\Agenda\\Agenda\\Models\\Agenda\\EnumsAgenda.cs",
+              "RelativeDocumentMoniker": "Agenda\\Models\\Agenda\\EnumsAgenda.cs",
+              "ToolTip": "C:\\Users\\mateo\\source\\repos\\Agenda\\Agenda\\Models\\Agenda\\EnumsAgenda.cs",
+              "RelativeToolTip": "Agenda\\Models\\Agenda\\EnumsAgenda.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-12T03:50:07.527Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "HorarioTaller.cs",
+              "DocumentMoniker": "C:\\Users\\mateo\\source\\repos\\Agenda\\Agenda\\Models\\Agenda\\HorarioTaller.cs",
+              "RelativeDocumentMoniker": "Agenda\\Models\\Agenda\\HorarioTaller.cs",
+              "ToolTip": "C:\\Users\\mateo\\source\\repos\\Agenda\\Agenda\\Models\\Agenda\\HorarioTaller.cs",
+              "RelativeToolTip": "Agenda\\Models\\Agenda\\HorarioTaller.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAwAMAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-12T03:53:50.646Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "Mecanico.cs",
+              "DocumentMoniker": "C:\\Users\\mateo\\source\\repos\\Agenda\\Agenda\\Models\\Agenda\\Mecanico.cs",
+              "RelativeDocumentMoniker": "Agenda\\Models\\Agenda\\Mecanico.cs",
+              "ToolTip": "C:\\Users\\mateo\\source\\repos\\Agenda\\Agenda\\Models\\Agenda\\Mecanico.cs",
+              "RelativeToolTip": "Agenda\\Models\\Agenda\\Mecanico.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAAwAMAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-12T03:53:03.175Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "TipoServicio.cs",
+              "DocumentMoniker": "C:\\Users\\mateo\\source\\repos\\Agenda\\Agenda\\Models\\Agenda\\TipoServicio.cs",
+              "RelativeDocumentMoniker": "Agenda\\Models\\Agenda\\TipoServicio.cs",
+              "ToolTip": "C:\\Users\\mateo\\source\\repos\\Agenda\\Agenda\\Models\\Agenda\\TipoServicio.cs",
+              "RelativeToolTip": "Agenda\\Models\\Agenda\\TipoServicio.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-12T03:53:35.244Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "Vehiculo.cs",
+              "DocumentMoniker": "C:\\Users\\mateo\\source\\repos\\Agenda\\Agenda\\Models\\Agenda\\Vehiculo.cs",
+              "RelativeDocumentMoniker": "Agenda\\Models\\Agenda\\Vehiculo.cs",
+              "ToolTip": "C:\\Users\\mateo\\source\\repos\\Agenda\\Agenda\\Models\\Agenda\\Vehiculo.cs",
+              "RelativeToolTip": "Agenda\\Models\\Agenda\\Vehiculo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-12T03:52:49.413Z"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{56df62a4-05a3-4e5b-aa1a-99371ccfb997}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
